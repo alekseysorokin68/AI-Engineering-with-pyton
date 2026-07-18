@@ -8,26 +8,26 @@
 
 | # | Урок | Код |
 |---|------|-----|
-| 01 | [Линейная алгебра — интуиция](#урок-01) | — |
-| 02 | [Векторы, матрицы и операции](#урок-02) | — |
-| 03 | [Матричные преобразования](#урок-03) | [Код](03-matrix_transformations.py) |
-| 04 | [Calculus для ML](#урок-04) | [Код](04-calculus_for_ml.py) |
-| 05 | [Chain Rule & Autograd](#урок-05) | [Код](05-chain_rule_autodiff.py) |
-| 06 | [Вероятности и распределения](#урок-06) | [Код](06-probability_distributions.py) |
-| 07 | [Bayes' Theorem](#урок-07) | [Код](07-bayes_theorem.py) |
-| 08 | [Оптимизация](#урок-08) | [Код](08-optimization.py) |
-| 09 | [Теория информации](#урок-09) | [Код](09-information_theory.py) |
-| 10 | [Размерность](#урок-10) | [Код](10-dimensionality_reduction.py) |
-| 11 | [SVD](#урок-11) | [Код](11-svd.py) |
-| 12 | [Tensor Operations](#урок-12) | [Код](12-tensor_operations.py) |
-| 13 | [Numerical Stability](#урок-13) | [Код](13-numerical_stability.py) |
-| 14 | [Нормы и расстояния](#урок-14) | [Код](14-norms_distances.py) |
-| 15 | [Статистика для ML](#урок-15) | [Код](15-statistics_for_ml.py) |
-| 16 | [Методы семплирования](#урок-16) | [Код](16-sampling_methods.py) |
-| 17 | [Линейные системы](#урок-17) | [Код](17-linear_systems.py) |
-| 18 | [Выпуклая оптимизация](#урок-18) | [Код](18-convex_optimization.py) |
-| 19 | [Комплексные числа](#урок-19) | [Код](19-complex_numbers.py) |
-| 20 | [Преобразование Фурье](#урок-20) | [Код](20-fourier_transform.py) |
+| 01 | [Линейная алгебра — интуиция](#урок-01-линейная-алгебра--интуиция) | — |
+| 02 | [Векторы, матрицы и операции](#урок-02-векторы-матрицы-и-операции) | — |
+| 03 | [Матричные преобразования](#урок-03-матричные-преобразования) | [Код](03-matrix_transformations.py) |
+| 04 | [Calculus для ML](#урок-04-calculus-for-ml) | [Код](04-calculus_for_ml.py) |
+| 05 | [Chain Rule & Autograd](#урок-05-chain-rule--automatic-differentiation) | [Код](05-chain_rule_autodiff.py) |
+| 06 | [Вероятности и распределения](#урок-06-probability--distributions) | [Код](06-probability_distributions.py) |
+| 07 | [Bayes' Theorem](#урок-07-bayes-theorem) | [Код](07-bayes_theorem.py) |
+| 08 | [Оптимизация](#урок-08-optimization) | [Код](08-optimization.py) |
+| 09 | [Теория информации](#урок-09-information-theory) | [Код](09-information_theory.py) |
+| 10 | [Размерность](#урок-10-dimensionality-reduction) | [Код](10-dimensionality_reduction.py) |
+| 11 | [SVD](#урок-11-svd) | [Код](11-svd.py) |
+| 12 | [Tensor Operations](#урок-12-tensor-operations) | [Код](12-tensor_operations.py) |
+| 13 | [Numerical Stability](#урок-13-numerical-stability) | [Код](13-numerical_stability.py) |
+| 14 | [Нормы и расстояния](#урок-14-norms-and-distances) | [Код](14-norms_distances.py) |
+| 15 | [Статистика для ML](#урок-15-statistics-for-ml) | [Код](15-statistics_for_ml.py) |
+| 16 | [Методы семплирования](#урок-16-sampling-methods) | [Код](16-sampling_methods.py) |
+| 17 | [Линейные системы](#урок-17-linear-systems) | [Код](17-linear_systems.py) |
+| 18 | [Выпуклая оптимизация](#урок-18-convex-optimization) | [Код](18-convex_optimization.py) |
+| 19 | [Комплексные числа](#урок-19-complex-numbers) | [Код](19-complex_numbers.py) |
+| 20 | [Преобразование Фурье](#урок-20-fourier-transform) | [Код](20-fourier_transform.py) |
 
 ---
 

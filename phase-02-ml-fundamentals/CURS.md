@@ -8,24 +8,24 @@
 
 | # | Урок | Код |
 |---|------|-----|
-| 21 | [Что такое ML](#урок-21) | [Код](21-ml_intro.py) |
-| 22 | [Linear Regression](#урок-22) | [Код](22-linear_regression.py) |
-| 23 | [Logistic Regression](#урок-23) | [Код](23-logistic_regression.py) |
-| 24 | [Decision Trees & Random Forests](#урок-24) | [Код](24-decision_trees.py) |
-| 25 | [Support Vector Machines](#урок-25) | [Код](25-support_vector_machines.py) |
-| 26 | [KNN & Distance Metrics](#урок-26) | [Код](26-knn.py) |
-| 27 | [Unsupervised Learning](#урок-27) | [Код](27-unsupervised_learning.py) |
-| 28 | [Feature Engineering & Selection](#урок-28) | [Код](28-feature_engineering.py) |
-| 29 | [Model Evaluation](#урок-29) | [Код](29-model_evaluation.py) |
-| 30 | [Bias, Variance & Learning Curve](#урок-30) | [Код](30-bias-variance.py) |
-| 31 | [Ensemble Methods](#урок-31) | [Код](31-ensemble_methods.py) |
-| 32 | [Hyperparameter Tuning](#урок-32) | [Код](32-hyperparameter_tuning.py) |
-| 33 | [ML Pipelines](#урок-33) | [Код](33-ml_pipelines.py) |
-| 34 | [Naive Bayes](#урок-34) | [Код](34-naive_bayes.py) |
-| 35 | [Time Series](#урок-35) | [Код](35-time_series.py) |
-| 36 | [Anomaly Detection](#урок-36) | [Код](36-anomaly_detection.py) |
-| 37 | [Imbalanced Data](#урок-37) | [Код](37-imbalanced_data.py) |
-| 38 | [Feature Selection](#урок-38) | [Код](38-feature_selection.py) |
+| 21 | [Что такое ML](#урок-21-что-такое-machine-learning) | [Код](21-ml_intro.py) |
+| 22 | [Linear Regression](#урок-22-linear-regression) | [Код](22-linear_regression.py) |
+| 23 | [Logistic Regression](#урок-23-logistic-regression) | [Код](23-logistic_regression.py) |
+| 24 | [Decision Trees & Random Forests](#урок-24-decision-trees--random-forests) | [Код](24-decision_trees.py) |
+| 25 | [Support Vector Machines](#урок-25-support-vector-machines) | [Код](25-support_vector_machines.py) |
+| 26 | [KNN & Distance Metrics](#урок-26-knn--distance-metrics) | [Код](26-knn.py) |
+| 27 | [Unsupervised Learning](#урок-27-unsupervised-learning--k-means-dbscan) | [Код](27-unsupervised_learning.py) |
+| 28 | [Feature Engineering & Selection](#урок-28-feature-engineering--selection) | [Код](28-feature_engineering.py) |
+| 29 | [Model Evaluation](#урок-29-model-evaluation) | [Код](29-model_evaluation.py) |
+| 30 | [Bias, Variance & Learning Curve](#урок-30-bias-variance-tradeoff) | [Код](30-bias-variance.py) |
+| 31 | [Ensemble Methods](#урок-31-ensemble-methods) | [Код](31-ensemble_methods.py) |
+| 32 | [Hyperparameter Tuning](#урок-32-hyperparameter-tuning) | [Код](32-hyperparameter_tuning.py) |
+| 33 | [ML Pipelines](#урок-33-ml-pipelines) | [Код](33-ml_pipelines.py) |
+| 34 | [Naive Bayes](#урок-34-naive-bayes) | [Код](34-naive_bayes.py) |
+| 35 | [Time Series](#урок-35-time-series) | [Код](35-time_series.py) |
+| 36 | [Anomaly Detection](#урок-36-anomaly-detection) | [Код](36-anomaly_detection.py) |
+| 37 | [Imbalanced Data](#урок-37-imbalanced-data) | [Код](37-imbalanced_data.py) |
+| 38 | [Feature Selection](#урок-38-feature-selection) | [Код](38-feature_selection.py) |
 
 ---
 
@@ -236,3 +236,216 @@ RBF → бесконечномерное пространство → любая
 | Loss | Hinge | Log |
 | Решения | Разреженные (SV) | Все точки |
 | Ядра | Да | Нет |
+
+---
+
+## Урок 26: KNN & Distance Metrics
+
+### K-Nearest Neighbors
+
+```
+1. Запомни все обучающие данные
+2. Для новой точки найди K ближайших соседей
+3. Прогноз = самый частый класс среди соседей
+```
+
+### Метрики расстояния
+
+| Метрика | Формула | Когда |
+|---|---|---|
+| Евклидова | √(Σ(xᵢ-yᵢ)²) | Пространственные данные |
+| Манхэттен | Σ|xᵢ-yᵢ| | Разреженные данные |
+| Косинусная | 1 - (x·y)/(‖x‖‖y‖) | Текст, эмбеддинги |
+
+### Влияние K
+
+```
+K=1: переобучение (шум)
+K=big: недообучение (размытая граница)
+```
+
+---
+
+## Урок 27: Unsupervised Learning — K-Means, DBSCAN
+
+### K-Means
+
+```
+1. Выбери K случайных центров
+2. Назначь каждую точку ближайшему центру
+3. Пересчитай центры как среднее кластеров
+4. Повторяй до сходимости
+```
+
+### DBSCAN
+
+```
+1. Найди core points (≥ min_samples соседей в eps)
+2. Расширь кластеры через core points
+3. Точки без core neighbors = шум
+```
+
+### Elbow Method
+
+Ищи "локоть" на графике inertia vs K — где inertia перестаёт резко падать.
+
+---
+
+## Урок 28: Feature Engineering & Selection
+
+### Методы нормализации
+
+| Метод | Формула | Когда |
+|---|---|---|
+| Z-score | (x - μ) / σ | Нормальные данные |
+| Min-Max | (x - min) / (max - min) | Ограничённый диапазон |
+
+### One-Hot Encoding
+
+```
+Категория → вектор из 0 и 1
+"кошка" → [1, 0, 0]
+"собака" → [0, 1, 0]
+```
+
+---
+
+## Урок 29: Model Evaluation
+
+### Метрики
+
+```
+Accuracy  = (TP + TN) / (TP + TN + FP + FN)
+Precision = TP / (TP + FP)
+Recall    = TP / (TP + FN)
+F1 = 2 × Precision × Recall / (Precision + Recall)
+```
+
+### K-Fold Cross-Validation
+
+Разбить данные на K частей, K раз обучить на K-1, протестировать на оставшейся.
+
+---
+
+## Урок 30: Bias-Variance Tradeoff
+
+```
+Total Error = Bias² + Variance + Irreducible Noise
+
+Underfitting: high bias, low variance
+Overfitting: low bias, high variance
+Good fit: баланс
+```
+
+### Learning Curves
+
+График train/test error vs размер данных. Сходимость = good fit.
+
+---
+
+## Урок 31: Ensemble Methods
+
+### Bagging
+
+```
+Bootstrap samples → N деревьев → Majority vote
+Уменьшает variance
+```
+
+### AdaBoost
+
+```
+1. Обучи слабую модель
+2. Увеличь веса ошибочных сэмплов
+3. Обучи следующую модель на взвешенных данных
+4. Повтори
+```
+
+---
+
+## Урок 32: Hyperparameter Tuning
+
+### Grid Search
+
+Полный перебор всех комбинаций параметров.
+
+### Random Search
+
+Случайный выбор комбинаций — быстрее при большом пространстве параметров.
+
+---
+
+## Урок 33: ML Pipelines
+
+### Пайплайн
+
+```
+Данные → Трансформер 1 → Трансформер 2 → Модель → Предсказание
+```
+
+Каждый шаг: fit/transform на train, transform на test.
+
+---
+
+## Урок 34: Naive Bayes
+
+### Формула
+
+```
+P(class|features) ∝ P(class) × ∏P(feature_i|class)
+
+Laplace smoothing: P = (count + 1) / (total + vocab_size)
+```
+
+---
+
+## Урок 35: Time Series
+
+### Методы
+
+| Метод | Формула | Когда |
+|---|---|---|
+| Moving Average | Среднее по окну | Сглаживание тренда |
+| Exponential Smoothing | α×x_t + (1-α)×预报 | Экспоненциальный тренд |
+
+---
+
+## Урок 36: Anomaly Detection
+
+### Z-score
+
+```
+z = (x - μ) / σ
+|z| > 3 → аномалия
+```
+
+### IQR
+
+```
+IQR = Q3 - Q1
+Аномалии: x < Q1 - 1.5×IQR или x > Q3 + 1.5×IQR
+```
+
+---
+
+## Урок 37: Handling Imbalanced Data
+
+### Методы
+
+| Метод | Как |
+|---|---|
+| Oversampling | Дублировать миноритарный класс |
+| Undersampling | Уменьшить мажоритарный класс |
+| Class weights | Увеличить вес миноритарного класса в loss |
+
+---
+
+## Урок 38: Feature Selection
+
+### Методы
+
+| Тип | Метод | Как |
+|---|---|---|
+| Filter | Корреляция, MI | Ранжировать признаки по связи с целью |
+| Wrapper | Forward/Backward | Добавлять/убирать признаки, проверять модель |
+| Embedded | L1 (Lasso) | Регуляризация обнуляет веса ненужных признаков |
