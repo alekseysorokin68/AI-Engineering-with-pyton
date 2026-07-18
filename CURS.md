@@ -775,6 +775,63 @@ A = U Σ Vᵀ  →  A⁺ = V Σ⁺ Uᵀ
 
 ---
 
+## Урок 12: Tensor Operations — тензоры и einsum
+
+### Что такое тензор
+
+```
+Скаляр:  rank 0, shape ()
+Вектор:  rank 1, shape (3,)
+Матрица: rank 2, shape (2,3)
+4D:      (B, C, H, W) — изображения (PyTorch)
+         (B, T, D)    — NLP
+         (B, H, T, D) — attention
+```
+
+### Broadcasting
+
+```
+A: (8, 1, 6, 1)
+B:    (7, 1, 5)
+→ padded B: (1, 7, 1, 5)
+→ Result:   (8, 7, 6, 5)
+
+Правила: выравнивание справа, dim = или dim = 1
+```
+
+### Einsum
+
+```
+"i,i->"         — dot product
+"i,j->ij"       — outer product
+"ik,kj->ij"     — matmul
+"bij,bjk->bik"  — batch matmul
+"bhtd,bhsd->bhts" — attention scores
+"ii->"          — trace
+"ij->ji"        — transpose
+```
+
+### Multi-head Attention
+
+```
+Input:        (B, T, E)
+Q = X @ W_q: (B, T, E) → reshape → (B, H, T, D)
+scores:       (B, H, T, T)  ← attention map
+weights:      softmax(scores)
+output:       (B, H, T, D) → merge → (B, T, E)
+```
+
+### Каждый слой = tensor операция
+
+| Слой | Формула | Einsum |
+|---|---|---|
+| Linear | Y = X @ W.T + b | "bd,od->bo" |
+| Attention Q | Q = X @ W_q | "btd,dh->bth" |
+| Attention scores | Q @ K.T / √d | "bhtd,bhsd->bhts" |
+| Attention output | softmax @ V | "bhts,bhsd->bhtd" |
+
+---
+
 ## Связи между уроками
 
 ```
@@ -832,6 +889,12 @@ A = U Σ Vᵀ  →  A⁺ = V Σ⁺ Uᵀ
   └─→ Truncated SVD → сжатие изображений, рекомендации
   └─→ PCA = SVD на центрированных данных
   └─→ Псевдообратная → least squares
+
+Урок 12 (Тензоры)
+  └─→ Shape, strides, reshape → основы тензоров
+  └─→ Broadcasting → работа с разными формами
+  └─→ Einsum → универсальная тензорная операция
+  └─→ Multi-head attention через einsum
 ```
 
 ---

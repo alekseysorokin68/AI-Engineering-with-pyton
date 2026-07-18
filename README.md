@@ -1,6 +1,6 @@
 # AI Engineering from Scratch
 
-Практический курс по математике для AI/ML — от линейной алгебры до SVD. Каждый урок: теория + рабочий код на Python без фреймворков.
+Практический курс по математике для AI/ML — от линейной алгебры до тензоров. Каждый урок: теория + рабочий код на Python без фреймворков.
 
 ## О чём этот курс
 
@@ -23,12 +23,13 @@
 | 09 | Теория информации | Энтропия, KL-расхождение, взаимная информация |
 | 10 | Размерность | PCA, t-SNE, UMAP, Kernel PCA |
 | 11 | SVD | Сжатие изображений, шумоподавление, рекомендации |
+| 12 | Tensor Operations | Shape, broadcasting, einsum, multi-head attention |
 
 ## Быстрый старт
 
 ```bash
-git clone https://github.com/alekseysorokin68/curs_ai.git
-cd curs_ai
+git clone https://github.com/alekseysorokin68/AI-Engineering-with-pyton.git
+cd AI-Engineering-with-pyton
 python optimization.py
 ```
 
@@ -48,12 +49,13 @@ curs_ai/
 ├── information_theory.py         — урок 09
 ├── dimensionality_reduction.py   — урок 10
 ├── svd.py                        — урок 11
+├── tensor_operations.py          — урок 12
 └── requirements.txt
 ```
 
 ## Конспект
 
-Файл `CURS.md` содержит конспект всей теории по урокам 01-11 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
+Файл `CURS.md` содержит конспект всей теории по урокам 01-12 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
 
 ## Лицензия
 
