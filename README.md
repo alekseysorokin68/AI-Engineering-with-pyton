@@ -112,6 +112,18 @@
 | 67 | [Transformer](phase-05-nlp/67-transformer.py) | Positional encoding, encoder-decoder |
 | 68 | [Pre-trained Models](phase-05-nlp/68_pretrained_models.py) | BERT, GPT, fine-tuning |
 
+### Phase 6: Speech & Audio (уроки 69-75)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 69 | [Audio Signal Processing](phase-06-speech-audio/69-audio_signal_processing.py) | FFT, фильтры, окнонание |
+| 70 | [Spectrograms](phase-06-speech-audio/70-spectrograms.py) | STFT, мел-шкала, MFCC |
+| 71 | [Speech Recognition](phase-06-speech-audio/71-speech_recognition.py) | DTW, HMM, распознавание команд |
+| 72 | [Speaker Verification](phase-06-speech-audio/72-speaker_verification.py) | MFCC, cosine similarity, порог |
+| 73 | [Text-to-Speech](phase-06-speech-audio/73-text_to_speech.py) | Формантный синтез |
+| 74 | [Music Generation](phase-06-speech-audio/74-music_generation.py) | Марковские цепи, пентатоника |
+| 75 | [Audio Augmentation](phase-06-speech-audio/75-audio_augmentation.py) | Шум, time stretching, pitch shift |
+
 ## Быстрый старт
 
 ```bash

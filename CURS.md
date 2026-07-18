@@ -11,6 +11,7 @@
 | Phase 3 | Deep Learning Core | 39-51 | [CURS.md](phase-03-deep-learning-core/CURS.md) |
 | Phase 4 | Vision | 52-60 | [CURS.md](phase-04-vision/CURS.md) |
 | Phase 5 | NLP | 61-68 | [CURS.md](phase-05-nlp/CURS.md) |
+| Phase 6 | Speech & Audio | 69-75 | [CURS.md](phase-06-speech-audio/CURS.md) |
 
 ## Формулы для справки
 
