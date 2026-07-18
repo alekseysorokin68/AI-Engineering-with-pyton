@@ -1,6 +1,25 @@
 # AI Engineering from Scratch
 
+## Оглавление
+
+| # | Урок | Тип |
+|---|------|-----|
+| 01 | [Линейная алгебра — интуиция](#урок-01-линейная-алгебра--интуиция-linear-algebra-intuition) | Теория |
+| 02 | [Векторы, матрицы и операции](#урок-02-векторы-матрицы-и-операции-vectors-matrices--operations) | Теория |
+| 03 | [Матричные преобразования](#урок-03-матричные-преобразования-matrix-transformations) | Код |
+| 04 | [Calculus для ML](#урок-04-calculus-for-ml) | Код |
+| 05 | [Chain Rule & Autograd](#урок-05-chain-rule--automatic-differentiation) | Код |
+| 06 | [Вероятности и распределения](#урок-06-probability--distributions) | Код |
+| 07 | [Bayes' Theorem](#урок-07-bayes-theorem--байесово-рассуждение) | Код |
+| 08 | [Оптимизация](#урок-08-optimization--семейство-градиентного-спуска) | Код |
+| 09 | [Теория информации](#урок-09-information-theory--энтропия-cross-entropy-kl) | Код |
+| 10 | [Размерность](#урок-10-dimensionality-reduction--pca-tsne-umap) | Код |
+| 11 | [SVD](#урок-11-svd--singular-value-decomposition) | Код |
+| 12 | [Tensor Operations](#урок-12-tensor-operations--тензоры-и-einsum) | Код |
+
 ---
+
+[Вернуться к README](README.md)
 
 ## Урок 01: Линейная алгебра — интуиция (Linear Algebra Intuition)
 
