@@ -6,9 +6,16 @@
 
 ## О чём этот курс
 
-Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-2 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/) — Math Foundations + ML Fundamentals.
+Полный курс AI/ML от основ математики до компьютерного зрения. **60 уроков, 4 фазы, ~350 файлов кода.**
 
-Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD — без импорта `torch` или `sklearn`. Только Python и понимание.
+Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-4 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
+
+- **Phase 1: Math Foundations** — линейная алгебра, calculus, вероятности, оптимизация, Фурье
+- **Phase 2: ML Fundamentals** — линейные модели, деревья, SVM, ансамбли, оценка моделей
+- **Phase 3: Deep Learning Core** — нейросети с нуля: перцептрон, backprop, оптимизаторы, регуляризация
+- **Phase 4: Vision** — CNN, свёртки, transfer learning, детекция и сегментация
+
+Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN — без импорта `torch` или `sklearn`. Только Python и понимание.
 
 ## Структура курса
 
