@@ -24,6 +24,7 @@
 | 18 | [Выпуклая оптимизация](#урок-18-convex-optimization--выпуклая-оптимизация) | [Код](code/convex_optimization.py) |
 | 19 | [Комплексные числа](#урок-19-complex-numbers--комплексные-числа) | [Код](code/complex_numbers.py) |
 | 20 | [Преобразование Фурье](#урок-20-fourier-transform--преобразование-фурье) | [Код](code/fourier_transform.py) |
+| 21 | [Что такое ML](#урок-21-what-is-machine-learning) | [Код](code/ml_intro.py) |
 
 ---
 
@@ -1190,6 +1191,36 @@ CNN: свёртка через FFT
 FNet: заменяет attention на FFT → O(N log N)
 Sinusoidal PE: частотная декомпозиция позиции
 Аудио: мел-спектрограммы (STFT → mel)
+```
+
+## Phase 2: ML Fundamentals
+
+## Урок 21: What Is Machine Learning
+
+### Три типа ML
+
+| Тип | Данные | Задача |
+|---|---|---|
+| **Supervised** | Вход-выход пары | Классификация, регрессия |
+| **Unsupervised** | Только входы | Кластеризация, PCA |
+| **Reinforcement** | Агент + среда | Оптимизация политики |
+
+### Train / Validation / Test
+
+```
+Training (70%): модель учится
+Validation (15%): настройка гиперпараметров
+Test (15%): финальная оценка (священный!)
+```
+
+### Overfitting vs Underfitting
+
+```
+Underfitting: слишком простая → high bias
+Overfitting: слишком сложная → high variance
+Good fit: баланс → хорошо обобщает
+
+Total error = Bias² + Variance + noise
 ```
 
 ---

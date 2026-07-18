@@ -1,16 +1,18 @@
 # AI Engineering from Scratch
 
-Практический курс по математике для AI/ML — от линейной алгебры до преобразования Фурье. Каждый урок: теория + рабочий код на Python без фреймворков.
+Практический курс по математике для AI/ML — от линейной алгебры до основ ML. Каждый урок: теория + рабочий код на Python без фреймворков.
 
 > **[Конспект теории (CURS.md)](CURS.md)** — все формулы, таблицы и связи между уроками в одном файле.
 
 ## О чём этот курс
 
-Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/) — Math Foundations.
+Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-2 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/) — Math Foundations + ML Fundamentals.
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD — без импорта `torch` или `sklearn`. Только Python и понимание.
 
 ## Уроки
+
+### Phase 1: Math Foundations
 
 | # | Урок | Что изучаем |
 |---|------|-------------|
@@ -34,6 +36,12 @@
 | 18 | [Выпуклая оптимизация](code/convex_optimization.py) | Выпуклость, Ньютон, множители Лагранжа, KKT, L1/L2 регуляризация |
 | 19 | [Комплексные числа](code/complex_numbers.py) | Комплексная арифметика, Euler, DFT, RoPE в Transformer |
 | 20 | [Преобразование Фурье](code/fourier_transform.py) | DFT, FFT, спектральный анализ, свёртка, спектрограммы |
+
+### Phase 2: ML Fundamentals
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 21 | [Что такое ML](code/ml_intro.py) | Типы ML, classification/regression, overfitting, bias-variance |
 
 ## Быстрый старт
 
@@ -69,14 +77,15 @@ AI-Engineering-with-pyton/
 │   ├── linear_systems.py
 │   ├── convex_optimization.py
 │   ├── complex_numbers.py
-│   └── fourier_transform.py
+│   ├── fourier_transform.py
+│   └── ml_intro.py
 ├── requirements.txt
 └── LICENSE
 ```
 
 ## Конспект
 
-Файл `CURS.md` содержит конспект всей теории по урокам 01-20 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
+Файл `CURS.md` содержит конспект всей теории по урокам 01-21 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
 
 ## Лицензия
 
