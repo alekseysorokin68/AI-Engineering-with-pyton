@@ -9,6 +9,7 @@
 | Phase 1 | Math Foundations | 01-20 | [CURS.md](phase-01-math-foundations/CURS.md) |
 | Phase 2 | ML Fundamentals | 21-38 | [CURS.md](phase-02-ml-fundamentals/CURS.md) |
 | Phase 3 | Deep Learning Core | 39-51 | [CURS.md](phase-03-deep-learning-core/CURS.md) |
+| Phase 4 | Vision | 52-60 | [CURS.md](phase-04-vision/CURS.md) |
 
 ## Формулы для справки
 

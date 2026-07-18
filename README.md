@@ -78,6 +78,20 @@
 | 50 | [Training Loop](phase-03-deep-learning-core/50-training_loop.py) | Forward, backward, update, eval |
 | 51 | [Debugging Neural Networks](phase-03-deep-learning-core/51-debugging_neural_networks.py) | Gradient checking, NaN, loss curves |
 
+### Phase 4: Vision (уроки 52-60)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 52 | [Image Representations](phase-04-vision/52-image_representations.py) | Пиксели, фильтры, гистограммы |
+| 53 | [Convolution](phase-04-vision/53-convolution.py) | 2D свёртка, ядра, padding, stride |
+| 54 | [Pooling](phase-04-vision/54-pooling.py) | Max, average, global average pooling |
+| 55 | [Building a CNN](phase-04-vision/55-building_cnn.py) | ConvLayer, PoolingLayer, CNN |
+| 56 | [Classic Architectures](phase-04-vision/56-classic_architectures.py) | LeNet-5, ResNet, residual connections |
+| 57 | [Transfer Learning](phase-04-vision/57-transfer_learning.py) | Feature extraction, fine-tuning |
+| 58 | [Data Augmentation](phase-04-vision/58-data_augmentation.py) | Flip, rotation, noise, crop |
+| 59 | [Object Detection](phase-04-vision/59-object_detection.py) | IoU, NMS, anchor boxes, mAP |
+| 60 | [Image Segmentation](phase-04-vision/60-image_segmentation.py) | Thresholding, K-Means, connected components |
+
 ## Быстрый старт
 
 ```bash
