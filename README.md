@@ -6,16 +6,19 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до компьютерного зрения. **60 уроков, 4 фазы, ~350 файлов кода.**
+Полный курс AI/ML от основ математики до reinforcement learning. **82 урока, 7 фаз, ~500 файлов кода.**
 
-Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-4 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
+Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-7 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
 - **Phase 1: Math Foundations** — линейная алгебра, calculus, вероятности, оптимизация, Фурье
 - **Phase 2: ML Fundamentals** — линейные модели, деревья, SVM, ансамбли, оценка моделей
 - **Phase 3: Deep Learning Core** — нейросети с нуля: перцептрон, backprop, оптимизаторы, регуляризация
 - **Phase 4: Vision** — CNN, свёртки, transfer learning, детекция и сегментация
+- **Phase 5: NLP** — текстовые представления, word embeddings, RNN, LSTM, Transformer
+- **Phase 6: Speech & Audio** — спектрограммы, распознавание речи, TTS, генерация музыки
+- **Phase 7: Reinforcement Learning** — Q-learning, DQN, Policy Gradient, Actor-Critic, RLHF
 
-Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN — без импорта `torch` или `sklearn`. Только Python и понимание.
+Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
 ## Структура курса
 
