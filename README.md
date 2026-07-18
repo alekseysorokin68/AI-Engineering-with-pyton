@@ -45,7 +45,8 @@
 | 22 | [Linear Regression](phase-02-ml-fundamentals/22-linear_regression.py) | GD vs Normal Equation, polynomial, Ridge регуляризация |
 | 23 | [Logistic Regression](phase-02-ml-fundamentals/23-logistic_regression.py) | Sigmoid, binary cross-entropy, softmax, метрики |
 | 24 | [Decision Trees & Random Forests](phase-02-ml-fundamentals/24-decision_trees.py) | Gini, entropy, information gain, bootstrap, feature importance |
-| 25-38 | Будущие уроки | SVM, KNN, и др. |
+| 25 | [Support Vector Machines](phase-02-ml-fundamentals/25-support_vector_machines.py) | Hinge loss, margin, kernel trick, RBF |
+| 26-38 | Будущие уроки | KNN, и др. |
 
 ## Быстрый старт
 
