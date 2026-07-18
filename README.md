@@ -27,7 +27,7 @@
 | 11 | [SVD](code/svd.py) | Сжатие изображений, шумоподавление, рекомендации |
 | 12 | [Tensor Operations](code/tensor_operations.py) | Shape, broadcasting, einsum, multi-head attention |
 | 13 | [Numerical Stability](code/numerical_stability.py) | Overflow, stable softmax, gradient checking, mixed precision |
-| 14 | [Norms & Distances](code/norms_distances.py) | L1, L2, cosine, Mahalanobis, Jaccard, edit distance |
+| 14 | [Нормы и расстояния](code/norms_distances.py) | L1, L2, cosine, Mahalanобис, Jaccard, расстояние редактирования |
 
 ## Быстрый старт
 

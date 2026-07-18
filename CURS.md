@@ -16,6 +16,8 @@
 | 10 | [Размерность](#урок-10-dimensionality-reduction--pca-tsne-umap) | Код |
 | 11 | [SVD](#урок-11-svd--singular-value-decomposition) | Код |
 | 12 | [Tensor Operations](#урок-12-tensor-operations--тензоры-и-einsum) | Код |
+| 13 | [Numerical Stability](#урок-13-numerical-stability--численная-стабильность) | Код |
+| 14 | [Нормы и расстояния](#урок-14-norms-and-distances--нормы-и-расстояния) | Код |
 
 ---
 
