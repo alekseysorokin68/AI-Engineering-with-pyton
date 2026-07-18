@@ -11,7 +11,7 @@
 | 21 | [Что такое ML](#урок-21) | [Код](21-ml_intro.py) |
 | 22 | [Linear Regression](#урок-22) | [Код](22-linear_regression.py) |
 | 23 | [Logistic Regression](#урок-23) | [Код](23-logistic_regression.py) |
-| 24 | Decision Trees & Random Forests | — |
+| 24 | [Decision Trees & Random Forests](#урок-24) | [Код](24-decision_trees.py) |
 | 25 | Support Vector Machines | — |
 | 26 | KNN & Distance Metrics | — |
 | 27 | Unsupervised Learning: K-Means, DBSCAN | — |
@@ -140,3 +140,50 @@ softmax(zᵢ) = exp(zᵢ) / Σexp(zⱼ)
 
 Класс с макс. вероятностью = предсказание
 ```
+
+---
+
+## Урок 24: Decision Trees & Random Forests
+
+### Gini Impurity
+
+```
+Gini(S) = 1 - Σpₖ²
+
+0 = чисто, 0.5 = макс. нечистота (50/50)
+```
+
+### Entropy
+
+```
+Entropy(S) = -Σpₖ·log₂(pₖ)
+
+0 = чисто, 1 = макс. неопределённость
+```
+
+### Information Gain
+
+```
+IG = Impurity(родитель) - weighted_avg(Impurity(дети))
+
+Чем больше IG → тем лучше разбиение
+```
+
+### Random Forest
+
+```
+Данные → Bootstrap samples → Дерево 1 (случайные признаки)
+                           → Дерево 2 (случайные признаки)
+                           → ...
+                           → Дерево N → Majority vote
+
+Bagging: каждое дерево на своём bootstrap (~63% уникальных)
+Feature randomisation: случайный подмножество признаков на каждом разбиении
+```
+
+### Когда деревья лучше нейросетей
+
+- Табличные данные (structured data)
+- Маленькие датасеты (< 10k строк)
+- Нужна интерпретируемость
+- Смешанные типы признаков
