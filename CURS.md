@@ -10,6 +10,7 @@
 | Phase 2 | ML Fundamentals | 21-38 | [CURS.md](phase-02-ml-fundamentals/CURS.md) |
 | Phase 3 | Deep Learning Core | 39-51 | [CURS.md](phase-03-deep-learning-core/CURS.md) |
 | Phase 4 | Vision | 52-60 | [CURS.md](phase-04-vision/CURS.md) |
+| Phase 5 | NLP | 61-68 | [CURS.md](phase-05-nlp/CURS.md) |
 
 ## Формулы для справки
 

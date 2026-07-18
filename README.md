@@ -99,6 +99,19 @@
 | 59 | [Object Detection](phase-04-vision/59-object_detection.py) | IoU, NMS, anchor boxes, mAP |
 | 60 | [Image Segmentation](phase-04-vision/60-image_segmentation.py) | Thresholding, K-Means, connected components |
 
+### Phase 5: NLP (уроки 61-68)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 61 | [Text Representations](phase-05-nlp/61-text_representations.py) | BoW, TF-IDF, N-grams |
+| 62 | [Word Embeddings](phase-05-nlp/62-word_embeddings.py) | Word2Vec, косинусное сходство |
+| 63 | [RNN](phase-05-nlp/63-rnn.py) | Рекуррентные сети, BPTT |
+| 64 | [LSTM & GRU](phase-05-nlp/64-lstm_gru.py) | Вентили, затухание градиентов |
+| 65 | [Seq2Seq](phase-05-nlp/65-seq2seq.py) | Encoder-Decoder, teacher forcing |
+| 66 | [Attention](phase-05-nlp/66-attention.py) | Scaled dot-product, multi-head |
+| 67 | [Transformer](phase-05-nlp/67-transformer.py) | Positional encoding, encoder-decoder |
+| 68 | [Pre-trained Models](phase-05-nlp/68_pretrained_models.py) | BERT, GPT, fine-tuning |
+
 ## Быстрый старт
 
 ```bash
