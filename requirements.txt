@@ -1,0 +1,4 @@
+# AI Engineering from Scratch — Phase 1: Math Foundations
+# Уроки 03-05
+
+numpy

@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "python",
+  "python.terminal.executeInFileDir": true,
+  "editor.formatOnSave": true,
+  "python.analysis.typeCheckingMode": "basic"
+}
