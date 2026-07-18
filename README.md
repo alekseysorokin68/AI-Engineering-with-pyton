@@ -16,17 +16,17 @@
 |---|------|-------------|
 | 01 | Линейная алгебра — интуиция | Векторы, dot product, проекция, ранг, Грамм-Шмидт |
 | 02 | Векторы, матрицы и операции | Матричное умножение, broadcasting, слой нейросети |
-| 03 | Матричные преобразования | Поворот, масштаб, собственные числа, определитель |
-| 04 | Calculus для ML | Производные, градиенты, гессиан, ряд Тейлора |
-| 05 | Chain Rule & Autograd | Цепное правило, micrograd, gradient checking |
-| 06 | Вероятности и распределения | Bernoulli, Normal, softmax, cross-entropy |
-| 07 | Bayes' Theorem | Наивный Байес, A/B тестирование, Beta-Binomial |
-| 08 | Оптимизация | GD, SGD, Momentum, Adam, расписания lr |
-| 09 | Теория информации | Энтропия, KL-расхождение, взаимная информация |
-| 10 | Размерность | PCA, t-SNE, UMAP, Kernel PCA |
-| 11 | SVD | Сжатие изображений, шумоподавление, рекомендации |
-| 12 | Tensor Operations | Shape, broadcasting, einsum, multi-head attention |
-| 13 | Numerical Stability | Overflow, stable softmax, gradient checking, mixed precision |
+| 03 | [Матричные преобразования](code/matrix_transformations.py) | Поворот, масштаб, собственные числа, определитель |
+| 04 | [Calculus для ML](code/calculus_for_ml.py) | Производные, градиенты, гессиан, ряд Тейлора |
+| 05 | [Chain Rule & Autograd](code/chain_rule_autodiff.py) | Цепное правило, micrograd, gradient checking |
+| 06 | [Вероятности и распределения](code/probability_distributions.py) | Bernoulli, Normal, softmax, cross-entropy |
+| 07 | [Bayes' Theorem](code/bayes_theorem.py) | Наивный Байес, A/B тестирование, Beta-Binomial |
+| 08 | [Оптимизация](code/optimization.py) | GD, SGD, Momentum, Adam, расписания lr |
+| 09 | [Теория информации](code/information_theory.py) | Энтропия, KL-расхождение, взаимная информация |
+| 10 | [Размерность](code/dimensionality_reduction.py) | PCA, t-SNE, UMAP, Kernel PCA |
+| 11 | [SVD](code/svd.py) | Сжатие изображений, шумоподавление, рекомендации |
+| 12 | [Tensor Operations](code/tensor_operations.py) | Shape, broadcasting, einsum, multi-head attention |
+| 13 | [Numerical Stability](code/numerical_stability.py) | Overflow, stable softmax, gradient checking, mixed precision |
 
 ## Быстрый старт
 
@@ -45,17 +45,17 @@ AI-Engineering-with-pyton/
 ├── README.md
 ├── CURS.md
 ├── code/
-│   ├── matrix_transformations.py   — урок 03
-│   ├── calculus_for_ml.py          — урок 04
-│   ├── chain_rule_autodiff.py      — урок 05
-│   ├── probability_distributions.py— урок 06
-│   ├── bayes_theorem.py            — урок 07
-│   ├── optimization.py             — урок 08
-│   ├── information_theory.py       — урок 09
-│   ├── dimensionality_reduction.py — урок 10
-│   ├── svd.py                      — урок 11
-│   ├── tensor_operations.py        — урок 12
-│   └── numerical_stability.py      — урок 13
+│   ├── matrix_transformations.py
+│   ├── calculus_for_ml.py
+│   ├── chain_rule_autodiff.py
+│   ├── probability_distributions.py
+│   ├── bayes_theorem.py
+│   ├── optimization.py
+│   ├── information_theory.py
+│   ├── dimensionality_reduction.py
+│   ├── svd.py
+│   ├── tensor_operations.py
+│   └── numerical_stability.py
 ├── requirements.txt
 └── LICENSE
 ```
