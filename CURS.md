@@ -851,6 +851,60 @@ output:       (B, H, T, D) → merge → (B, T, E)
 
 ---
 
+## Урок 13: Numerical Stability — численная стабильность
+
+### IEEE 754
+
+```
+float32: ~7 знаков, до 3.4e38
+float16: ~3 знака, до 65 504     ← мало для ML!
+bfloat16: ~2 знака, до 3.4e38    ← range как float32
+```
+
+### Overflow и Underflow
+
+```
+exp(88.7) = 3.4e38  (предел float32)
+exp(89.0) = inf     ← overflow!
+exp(-104) = 0.0     ← underflow!
+log(0.0)  = -inf
+```
+
+### Log-Sum-Exp Trick
+
+```
+log(sum(exp(x_i))) = max(x) + log(sum(exp(x_i - max(x))))
+
+Без трюка: exp(100) = inf
+С трюком:  exp(100-102) = exp(-2) = 0.135
+```
+
+### Stable Softmax
+
+```
+max_logit = max(logits)
+exps = [exp(z - max_logit) for z in logits]
+```
+
+### Gradient Checking
+
+```
+relative_error = |analytical - numerical| / max(|analytical|, |numerical|)
+
+< 1e-7: отлично
+< 1e-5: нормально
+> 1e-3: ошибка
+```
+
+### Mixed Precision
+
+```
+float16: быстрый, limited range → нужен loss scaling
+bfloat16: быстрый + широкий range → без loss scaling
+```
+
+---
+
 ## Связи между уроками
 
 ```
@@ -914,6 +968,12 @@ output:       (B, H, T, D) → merge → (B, T, E)
   └─→ Broadcasting → работа с разными формами
   └─→ Einsum → универсальная тензорная операция
   └─→ Multi-head attention через einsum
+
+Урок 13 (Численная стабильность)
+  └─→ Log-sum-exp trick → защита от overflow в softmax
+  └─→ Stable softmax / cross-entropy
+  └─→ Gradient checking → верификация backprop
+  └─→ Mixed precision: bfloat16 > float16 для обучения
 ```
 
 ---
