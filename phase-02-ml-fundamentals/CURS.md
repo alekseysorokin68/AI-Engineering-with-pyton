@@ -18,14 +18,14 @@
 | 28 | [Feature Engineering & Selection](#урок-28) | [Код](28-feature_engineering.py) |
 | 29 | [Model Evaluation](#урок-29) | [Код](29-model_evaluation.py) |
 | 30 | [Bias, Variance & Learning Curve](#урок-30) | [Код](30-bias-variance.py) |
-| 31 | Ensemble Methods: Boosting, Bagging, Stacking | — |
-| 32 | Hyperparameter Tuning | — |
-| 33 | ML Pipelines & Experiment Tracking | — |
-| 34 | Naive Bayes | — |
-| 35 | Time Series Fundamentals | — |
-| 36 | Anomaly Detection | — |
-| 37 | Handling Imbalanced Data | — |
-| 38 | Feature Selection | — |
+| 31 | [Ensemble Methods](#урок-31) | [Код](31-ensemble_methods.py) |
+| 32 | [Hyperparameter Tuning](#урок-32) | [Код](32-hyperparameter_tuning.py) |
+| 33 | [ML Pipelines](#урок-33) | [Код](33-ml_pipelines.py) |
+| 34 | [Naive Bayes](#урок-34) | [Код](34-naive_bayes.py) |
+| 35 | [Time Series](#урок-35) | [Код](35-time_series.py) |
+| 36 | [Anomaly Detection](#урок-36) | [Код](36-anomaly_detection.py) |
+| 37 | [Imbalanced Data](#урок-37) | [Код](37-imbalanced_data.py) |
+| 38 | [Feature Selection](#урок-38) | [Код](38-feature_selection.py) |
 
 ---
 

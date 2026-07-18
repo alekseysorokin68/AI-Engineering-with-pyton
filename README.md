@@ -51,7 +51,14 @@
 | 28 | [Feature Engineering](phase-02-ml-fundamentals/28-feature_engineering.py) | Нормализация, one-hot, полиномиальные признаки |
 | 29 | [Model Evaluation](phase-02-ml-fundamentals/29-model_evaluation.py) | Метрики, cross-validation, confusion matrix |
 | 30 | [Bias-Variance](phase-02-ml-fundamentals/30-bias-variance.py) | Bias-variance tradeoff, learning curves |
-| 31-38 | Будущие уроки | Ensemble methods, и др. |
+| 31 | [Ensemble Methods](phase-02-ml-fundamentals/31-ensemble_methods.py) | Bagging, AdaBoost, Voting |
+| 32 | [Hyperparameter Tuning](phase-02-ml-fundamentals/32-hyperparameter_tuning.py) | Grid Search, Random Search |
+| 33 | [ML Pipelines](phase-02-ml-fundamentals/33-ml_pipelines.py) | Пайплайны, experiment tracking |
+| 34 | [Naive Bayes](phase-02-ml-fundamentals/34-naive_bayes.py) | Gaussian/Multinomial Naive Bayes |
+| 35 | [Time Series](phase-02-ml-fundamentals/35-time_series.py) | Скользящее среднее, экспоненциальное сглаживание |
+| 36 | [Anomaly Detection](phase-02-ml-fundamentals/36-anomaly_detection.py) | Z-score, IQR, Isolation Forest |
+| 37 | [Imbalanced Data](phase-02-ml-fundamentals/37-imbalanced_data.py) | Oversampling, undersampling, class weights |
+| 38 | [Feature Selection](phase-02-ml-fundamentals/38-feature_selection.py) | Filter, wrapper, embedded methods |
 
 ## Быстрый старт
 
