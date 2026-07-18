@@ -42,6 +42,7 @@
 | # | Урок | Что изучаем |
 |---|------|-------------|
 | 21 | [Что такое ML](code/ml_intro.py) | Типы ML, classification/regression, overfitting, bias-variance |
+| 22 | [Linear Regression](code/linear_regression.py) | GD vs Normal Equation, polynomial, Ridge регуляризация |
 
 ## Быстрый старт
 
@@ -78,14 +79,15 @@ AI-Engineering-with-pyton/
 │   ├── convex_optimization.py
 │   ├── complex_numbers.py
 │   ├── fourier_transform.py
-│   └── ml_intro.py
+│   ├── ml_intro.py
+│   └── linear_regression.py
 ├── requirements.txt
 └── LICENSE
 ```
 
 ## Конспект
 
-Файл `CURS.md` содержит конспект всей теории по урокам 01-21 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
+Файл `CURS.md` содержит конспект всей теории по урокам 01-22 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
 
 ## Лицензия
 

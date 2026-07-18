@@ -25,6 +25,7 @@
 | 19 | [Комплексные числа](#урок-19-complex-numbers--комплексные-числа) | [Код](code/complex_numbers.py) |
 | 20 | [Преобразование Фурье](#урок-20-fourier-transform--преобразование-фурье) | [Код](code/fourier_transform.py) |
 | 21 | [Что такое ML](#урок-21-what-is-machine-learning) | [Код](code/ml_intro.py) |
+| 22 | [Linear Regression](#урок-22-linear-regression) | [Код](code/linear_regression.py) |
 
 ---
 
@@ -1221,6 +1222,41 @@ Overfitting: слишком сложная → high variance
 Good fit: баланс → хорошо обобщает
 
 Total error = Bias² + Variance + noise
+```
+
+---
+
+## Урок 22: Linear Regression
+
+### Модель
+
+```
+y = wx + b
+```
+
+### Cost Function (MSE)
+
+```
+MSE = (1/n) × Σ(y_pred - y_actual)²
+```
+
+### Gradient Descent
+
+```
+dMSE/dw = (2/n) × Σ(y_pred - y) × x
+w = w - lr × dMSE/dw
+```
+
+### Normal Equation
+
+```
+w = (XᵀX)⁻¹ × Xᵀy  (закрытая форма, O(n³))
+```
+
+### Ridge (L2 регуляризация)
+
+```
+Cost = MSE + λ × Σw²  → сжимает веса к нулю
 ```
 
 ---
