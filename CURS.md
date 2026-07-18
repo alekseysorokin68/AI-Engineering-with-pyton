@@ -6,18 +6,18 @@
 |---|------|-----|
 | 01 | [Линейная алгебра — интуиция](#урок-01-линейная-алгебра--интуиция-linear-algebra-intuition) | Теория |
 | 02 | [Векторы, матрицы и операции](#урок-02-векторы-матрицы-и-операции-vectors-matrices--operations) | Теория |
-| 03 | [Матричные преобразования](#урок-03-матричные-преобразования-matrix-transformations) | Код |
-| 04 | [Calculus для ML](#урок-04-calculus-for-ml) | Код |
-| 05 | [Chain Rule & Autograd](#урок-05-chain-rule--automatic-differentiation) | Код |
-| 06 | [Вероятности и распределения](#урок-06-probability--distributions) | Код |
-| 07 | [Bayes' Theorem](#урок-07-bayes-theorem--байесово-рассуждение) | Код |
-| 08 | [Оптимизация](#урок-08-optimization--семейство-градиентного-спуска) | Код |
-| 09 | [Теория информации](#урок-09-information-theory--энтропия-cross-entropy-kl) | Код |
-| 10 | [Размерность](#урок-10-dimensionality-reduction--pca-tsne-umap) | Код |
-| 11 | [SVD](#урок-11-svd--singular-value-decomposition) | Код |
-| 12 | [Tensor Operations](#урок-12-tensor-operations--тензоры-и-einsum) | Код |
-| 13 | [Numerical Stability](#урок-13-numerical-stability--численная-стабильность) | Код |
-| 14 | [Нормы и расстояния](#урок-14-norms-and-distances--нормы-и-расстояния) | Код |
+| 03 | [Матричные преобразования](#урок-03-матричные-преобразования-matrix-transformations) | [Код](code/matrix_transformations.py) |
+| 04 | [Calculus для ML](#урок-04-calculus-for-ml) | [Код](code/calculus_for_ml.py) |
+| 05 | [Chain Rule & Autograd](#урок-05-chain-rule--automatic-differentiation) | [Код](code/chain_rule_autodiff.py) |
+| 06 | [Вероятности и распределения](#урок-06-probability--distributions) | [Код](code/probability_distributions.py) |
+| 07 | [Bayes' Theorem](#урок-07-bayes-theorem--байесово-рассуждение) | [Код](code/bayes_theorem.py) |
+| 08 | [Оптимизация](#урок-08-optimization--семейство-градиентного-спуска) | [Код](code/optimization.py) |
+| 09 | [Теория информации](#урок-09-information-theory--энтропия-cross-entropy-kl) | [Код](code/information_theory.py) |
+| 10 | [Размерность](#урок-10-dimensionality-reduction--pca-tsne-umap) | [Код](code/dimensionality_reduction.py) |
+| 11 | [SVD](#урок-11-svd--singular-value-decomposition) | [Код](code/svd.py) |
+| 12 | [Tensor Operations](#урок-12-tensor-operations--тензоры-и-einsum) | [Код](code/tensor_operations.py) |
+| 13 | [Numerical Stability](#урок-13-numerical-stability--численная-стабильность) | [Код](code/numerical_stability.py) |
+| 14 | [Нормы и расстояния](#урок-14-norms-and-distances--нормы-и-расстояния) | [Код](code/norms_distances.py) |
 
 ---
 
