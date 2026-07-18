@@ -60,6 +60,24 @@
 | 37 | [Imbalanced Data](phase-02-ml-fundamentals/37-imbalanced_data.py) | Oversampling, undersampling, class weights |
 | 38 | [Feature Selection](phase-02-ml-fundamentals/38-feature_selection.py) | Filter, wrapper, embedded methods |
 
+### Phase 3: Deep Learning Core (уроки 39-51)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 39 | [The Perceptron](phase-03-deep-learning-core/39-perceptron.py) | Перцепptron, граница решения, XOR |
+| 40 | [Multi-Layer Networks](phase-03-deep-learning-core/40-multi_layer_networks.py) | Neuron, Layer, MLP, активации |
+| 41 | [Backpropagation](phase-03-deep-learning-core/41-backpropagation.py) | Value class, autodiff, gradient checking |
+| 42 | [Activation Functions](phase-03-deep-learning-core/42-activation_functions.py) | Sigmoid, ReLU, GELU, затухание градиентов |
+| 43 | [Loss Functions](phase-03-deep-learning-core/43-loss_functions.py) | MSE, Cross-Entropy, Huber, Contrastive |
+| 44 | [Optimizers](phase-03-deep-learning-core/44-optimizers.py) | SGD, Momentum, RMSProp, Adam, AdamW |
+| 45 | [Weight Initialization](phase-03-deep-learning-core/45-weight_initialization.py) | Random, Xavier, He |
+| 46 | [Batch Normalization](phase-03-deep-learning-core/46-batch_normalization.py) | Нормализация, running stats |
+| 47 | [Dropout & Regularization](phase-03-deep-learning-core/47-dropout_regularization.py) | Dropout, L1/L2, early stopping |
+| 48 | [Learning Rate Schedules](phase-03-deep-learning-core/48-learning_rate_schedules.py) | Step, cosine, warmup |
+| 49 | [Neural Network Framework](phase-03-deep-learning-core/49-neural_network_framework.py) | Полный фреймворк с нуля |
+| 50 | [Training Loop](phase-03-deep-learning-core/50-training_loop.py) | Forward, backward, update, eval |
+| 51 | [Debugging Neural Networks](phase-03-deep-learning-core/51-debugging_neural_networks.py) | Gradient checking, NaN, loss curves |
+
 ## Быстрый старт
 
 ```bash
