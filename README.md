@@ -1,6 +1,6 @@
 # AI Engineering from Scratch
 
-Практический курс по математике для AI/ML — от линейной алгебры до статистики. Каждый урок: теория + рабочий код на Python без фреймворков.
+Практический курс по математике для AI/ML — от линейной алгебры до методов семплирования. Каждый урок: теория + рабочий код на Python без фреймворков.
 
 > **[Конспект теории (CURS.md)](CURS.md)** — все формулы, таблицы и связи между уроками в одном файле.
 
@@ -29,6 +29,7 @@
 | 13 | [Numerical Stability](code/numerical_stability.py) | Overflow, stable softmax, gradient checking, mixed precision |
 | 14 | [Нормы и расстояния](code/norms_distances.py) | L1, L2, cosine, Mahalanобис, Jaccard, расстояние редактирования |
 | 15 | [Статистика для ML](code/statistics_for_ml.py) | Корреляция, t-test, bootstrap, Cohen's d, A/B тестирование |
+| 16 | [Методы семплирования](code/sampling_methods.py) | Inverse CDF, rejection, temperature, top-k, top-p, MCMC |
 
 ## Быстрый старт
 
@@ -59,14 +60,15 @@ AI-Engineering-with-pyton/
 │   ├── tensor_operations.py
 │   ├── numerical_stability.py
 │   ├── norms_distances.py
-│   └── statistics_for_ml.py
+│   ├── statistics_for_ml.py
+│   └── sampling_methods.py
 ├── requirements.txt
 └── LICENSE
 ```
 
 ## Конспект
 
-Файл `CURS.md` содержит конспект всей теории по урокам 01-15 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
+Файл `CURS.md` содержит конспект всей теории по урокам 01-16 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
 
 ## Лицензия
 
