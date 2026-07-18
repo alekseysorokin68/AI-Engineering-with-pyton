@@ -32,27 +32,30 @@
 ```bash
 git clone https://github.com/alekseysorokin68/AI-Engineering-with-pyton.git
 cd AI-Engineering-with-pyton
-python optimization.py
+python code/optimization.py
 ```
 
-Или через VS Code: открой папку → файл → **F5**.
+Или через VS Code: открой папку → `code/` → файл → **F5**.
 
 ## Структура
 
 ```
-curs_ai/
-├── CURS.md                       — конспект теории (все уроки)
-├── matrix_transformations.py     — урок 03
-├── calculus_for_ml.py            — урок 04
-├── chain_rule_autodiff.py        — урок 05
-├── probability_distributions.py  — урок 06
-├── bayes_theorem.py              — урок 07
-├── optimization.py               — урок 08
-├── information_theory.py         — урок 09
-├── dimensionality_reduction.py   — урок 10
-├── svd.py                        — урок 11
-├── tensor_operations.py          — урок 12
-└── requirements.txt
+AI-Engineering-with-pyton/
+├── README.md                       — описание курса
+├── CURS.md                         — конспект теории (все уроки)
+├── code/                           — уроки с кодом
+│   ├── matrix_transformations.py   — урок 03
+│   ├── calculus_for_ml.py          — урок 04
+│   ├── chain_rule_autodiff.py      — урок 05
+│   ├── probability_distributions.py— урок 06
+│   ├── bayes_theorem.py            — урок 07
+│   ├── optimization.py             — урок 08
+│   ├── information_theory.py       — урок 09
+│   ├── dimensionality_reduction.py — урок 10
+│   ├── svd.py                      — урок 11
+│   └── tensor_operations.py        — урок 12
+├── requirements.txt
+└── LICENSE
 ```
 
 ## Конспект
