@@ -1,6 +1,6 @@
 # AI Engineering from Scratch
 
-Практический курс по математике для AI/ML — от линейной алгебры до численной стабильности. Каждый урок: теория + рабочий код на Python без фреймворков.
+Практический курс по математике для AI/ML — от линейной алгебры до норм и расстояний. Каждый урок: теория + рабочий код на Python без фреймворков.
 
 > **[Конспект теории (CURS.md)](CURS.md)** — все формулы, таблицы и связи между уроками в одном файле.
 
@@ -27,6 +27,7 @@
 | 11 | [SVD](code/svd.py) | Сжатие изображений, шумоподавление, рекомендации |
 | 12 | [Tensor Operations](code/tensor_operations.py) | Shape, broadcasting, einsum, multi-head attention |
 | 13 | [Numerical Stability](code/numerical_stability.py) | Overflow, stable softmax, gradient checking, mixed precision |
+| 14 | [Norms & Distances](code/norms_distances.py) | L1, L2, cosine, Mahalanobis, Jaccard, edit distance |
 
 ## Быстрый старт
 
@@ -55,14 +56,15 @@ AI-Engineering-with-pyton/
 │   ├── dimensionality_reduction.py
 │   ├── svd.py
 │   ├── tensor_operations.py
-│   └── numerical_stability.py
+│   ├── numerical_stability.py
+│   └── norms_distances.py
 ├── requirements.txt
 └── LICENSE
 ```
 
 ## Конспект
 
-Файл `CURS.md` содержит конспект всей теории по урокам 01-13 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
+Файл `CURS.md` содержит конспект всей теории по урокам 01-14 — формулы, таблицы, связи между темами. Удобно для повторения перед собеседованием или экзаменом.
 
 ## Лицензия
 
