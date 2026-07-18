@@ -139,6 +139,19 @@
 | 81 | [Actor-Critic](phase-07-reinforcement-learning/81-actor_critic.py) | A2C, advantage |
 | 82 | [RLHF](phase-07-reinforcement-learning/82-rlhf.py) | Reward model, PPO, KL penalty |
 
+### Phase 8: Generative AI (уроки 83-90)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 83 | [Autoencoders](phase-08-generative-ai/83-autoencoders.py) | Encoder, Decoder, latent space |
+| 84 | [VAE](phase-08-generative-ai/84-vae.py) | Reparameterization, ELBO |
+| 85 | [GAN](phase-08-generative-ai/85-gan.py) | Generator, Discriminator, adversarial training |
+| 86 | [GAN Stability](phase-08-generative-ai/86-gan_stability.py) | Label smoothing, WGAN, gradient penalty |
+| 87 | [Diffusion Models](phase-08-generative-ai/87-diffusion_models.py) | Forward/reverse process, DDPM |
+| 88 | [Denoising Diffusion](phase-08-generative-ai/88-denoising_diffusion.py) | UNet, DDIM, CFG |
+| 89 | [Stable Diffusion](phase-08-generative-ai/89-stable_diffusion.py) | VAE + UNet + Text Encoder |
+| 90 | [Text-to-Image](phase-08-generative-ai/90_text_to_image.py) | CLIP, prompt engineering |
+
 ## Быстрый старт
 
 ```bash
