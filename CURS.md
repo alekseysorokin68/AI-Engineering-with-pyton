@@ -12,6 +12,7 @@
 | Phase 4 | Vision | 52-60 | [CURS.md](phase-04-vision/CURS.md) |
 | Phase 5 | NLP | 61-68 | [CURS.md](phase-05-nlp/CURS.md) |
 | Phase 6 | Speech & Audio | 69-75 | [CURS.md](phase-06-speech-audio/CURS.md) |
+| Phase 7 | Reinforcement Learning | 76-82 | [CURS.md](phase-07-reinforcement-learning/CURS.md) |
 
 ## Формулы для справки
 

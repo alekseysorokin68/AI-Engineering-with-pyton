@@ -124,6 +124,18 @@
 | 74 | [Music Generation](phase-06-speech-audio/74-music_generation.py) | Марковские цепи, пентатоника |
 | 75 | [Audio Augmentation](phase-06-speech-audio/75-audio_augmentation.py) | Шум, time stretching, pitch shift |
 
+### Phase 7: Reinforcement Learning (уроки 76-82)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 76 | [Introduction to RL](phase-07-reinforcement-learning/76-introduction_rl.py) | Среда, агент, вознаграждение |
+| 77 | [Multi-Armed Bandits](phase-07-reinforcement-learning/77-multi_armed_bandits.py) | Epsilon-greedy, UCB, Thompson |
+| 78 | [Q-Learning](phase-07-reinforcement-learning/78-q_learning.py) | Q-таблица,贝尔曼 |
+| 79 | [DQN](phase-07-reinforcement-learning/79-dqn.py) | Experience replay, target network |
+| 80 | [Policy Gradient](phase-07-reinforcement-learning/80-policy_gradient.py) | REINFORCE, baseline |
+| 81 | [Actor-Critic](phase-07-reinforcement-learning/81-actor_critic.py) | A2C, advantage |
+| 82 | [RLHF](phase-07-reinforcement-learning/82-rlhf.py) | Reward model, PPO, KL penalty |
+
 ## Быстрый старт
 
 ```bash
