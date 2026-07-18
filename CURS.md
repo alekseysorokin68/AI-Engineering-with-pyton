@@ -20,6 +20,7 @@
 | 14 | [Нормы и расстояния](#урок-14-norms-and-distances--нормы-и-расстояния) | [Код](code/norms_distances.py) |
 | 15 | [Статистика для ML](#урок-15-statistics-for-ml--статистика-для-ml) | [Код](code/statistics_for_ml.py) |
 | 16 | [Методы семплирования](#урок-16-sampling-methods--методы-семплирования) | [Код](code/sampling_methods.py) |
+| 17 | [Линейные системы](#урок-17-linear-systems--линейные-системы) | [Код](code/linear_systems.py) |
 
 ---
 
@@ -1031,6 +1032,39 @@ Gibbs: обновляем одну переменную из условного 
 
 ---
 
+## Урок 17: Linear Systems — линейные системы
+
+### Методы решения Ax = b
+
+| Метод | Требования | Стоимость | Когда |
+|---|---|---|---|
+| Gaussian elimination | Квадратная A | O(n³) | Разовое решение |
+| LU | Квадратная A | O(n³) + O(n²) | Множество решений |
+| QR | Любая A | O(mn²) | Least squares |
+| Cholesky | SPD матрица | O(n³/3) | Ковариации, GP, ridge |
+| Normal equations | m > n | O(mn²+n³) | Линейная регрессия |
+
+### Normal Equations = Linear Regression
+
+```
+A^T A x = A^T b
+w = (X^T X)^(-1) X^T y
+
+Ridge: w = (X^T X + λI)^(-1) X^T y
+```
+
+### Condition Number
+
+```
+κ = σ_max / σ_min
+
+κ < 100: безопасно
+κ ~ 10^k: теряем k знаков
+κ ~ 10^16: ответ бессмысленный
+```
+
+---
+
 ## Связи между уроками
 
 ```
@@ -1118,6 +1152,11 @@ Gibbs: обновляем одну переменную из условного 
   └─→ Temperature, top-k, top-p для LLM
   └─→ Reparameterization trick (VAE)
   └─→ MCMC: Metropolis-Hastings, Gibbs
+
+Урок 17 (Линейные системы)
+  └─→ Gaussian elimination, LU, Cholesky
+  └─→ Normal equations, least squares, linear regression
+  └─→ Ridge regression, condition number
 ```
 
 ---
