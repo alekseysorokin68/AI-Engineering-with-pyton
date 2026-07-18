@@ -14,6 +14,7 @@
 | Phase 6 | Speech & Audio | 69-75 | [CURS.md](phase-06-speech-audio/CURS.md) |
 | Phase 7 | Reinforcement Learning | 76-82 | [CURS.md](phase-07-reinforcement-learning/CURS.md) |
 | Phase 8 | Generative AI | 83-90 | [CURS.md](phase-08-generative-ai/CURS.md) |
+| Phase 9 | RL Advanced | 91-95 | [CURS.md](phase-09-reinforcement-advanced/CURS.md) |
 
 ## Формулы для справки
 

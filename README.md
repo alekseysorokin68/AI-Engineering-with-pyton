@@ -153,6 +153,16 @@
 | 89 | [Stable Diffusion](phase-08-generative-ai/89-stable_diffusion.py) | VAE + UNet + Text Encoder |
 | 90 | [Text-to-Image](phase-08-generative-ai/90_text_to_image.py) | CLIP, prompt engineering |
 
+### Phase 9: RL Advanced (уроки 91-95)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 91 | [Model-Based RL](phase-09-reinforcement-advanced/91-model_based_rl.py) | Динамика среды, Dyna-Q |
+| 92 | [Monte Carlo](phase-09-reinforcement-advanced/92-monte_carlo.py) | MC evaluation, MC control |
+| 93 | [TD Learning](phase-09-reinforcement-advanced/93-temporal_difference.py) | TD(0), TD(λ), SARSA |
+| 94 | [SARSA vs Q-Learning](phase-09-reinforcement-advanced/94-sarsa_vs_qlearning.py) | On-policy vs off-policy |
+| 95 | [Multi-Agent RL](phase-09-reinforcement-advanced/95_multi_agent_rl.py) | Cooperative, competitive, communication |
+
 ## Быстрый старт
 
 ```bash
