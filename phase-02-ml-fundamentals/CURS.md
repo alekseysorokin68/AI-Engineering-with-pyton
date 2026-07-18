@@ -10,7 +10,7 @@
 |---|------|-----|
 | 21 | [Что такое ML](#урок-21) | [Код](21-ml_intro.py) |
 | 22 | [Linear Regression](#урок-22) | [Код](22-linear_regression.py) |
-| 23 | Logistic Regression & Classification | — |
+| 23 | [Logistic Regression](#урок-23) | [Код](23-logistic_regression.py) |
 | 24 | Decision Trees & Random Forests | — |
 | 25 | Support Vector Machines | — |
 | 26 | KNN & Distance Metrics | — |
@@ -90,4 +90,53 @@ w = (XᵀX)⁻¹ × Xᵀy  (закрытая форма, O(n³))
 
 ```
 Cost = MSE + λ × Σw²  → сжимает веса к нулю
+```
+
+---
+
+## Урок 23: Logistic Regression
+
+### Sigmoid Function
+
+```
+sigmoid(z) = 1 / (1 + e^(-z))
+
+z → +∞: sigmoid → 1
+z → -∞: sigmoid → 0
+z = 0:  sigmoid = 0.5
+```
+
+### Модель
+
+```
+z = wx + b         (линейная комбинация)
+p = sigmoid(z)     (вероятность)
+
+p >= 0.5 → класс 1
+p < 0.5  → класс 0
+```
+
+### Binary Cross-Entropy Loss
+
+```
+L = -(1/n) × Σ[y·log(p) + (1-y)·log(1-p)]
+
+y=1, p→1: loss→0 (правильно)
+y=1, p→0: loss→∞ (неправильно)
+```
+
+### Метрики
+
+| Метрика | Формула | Когда важна |
+|---|---|---|
+| Precision | TP/(TP+FP) | Ложные позитивы дороги |
+| Recall | TP/(TP+FN) | Ложные негативы дороги |
+| F1 | 2×P×R/(P+R) | Баланс |
+
+### Multi-class (Softmax)
+
+```
+softmax(zᵢ) = exp(zᵢ) / Σexp(zⱼ)
+
+Класс с макс. вероятностью = предсказание
 ```

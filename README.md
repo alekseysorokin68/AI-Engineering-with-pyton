@@ -43,7 +43,8 @@
 |---|------|-------------|
 | 21 | [Что такое ML](phase-02-ml-fundamentals/21-ml_intro.py) | Типы ML, classification/regression, overfitting, bias-variance |
 | 22 | [Linear Regression](phase-02-ml-fundamentals/22-linear_regression.py) | GD vs Normal Equation, polynomial, Ridge регуляризация |
-| 23-38 | Будущие уроки | Logistic Regression, SVM, KNN, Decision Trees, и др. |
+| 23 | [Logistic Regression](phase-02-ml-fundamentals/23-logistic_regression.py) | Sigmoid, binary cross-entropy, softmax, метрики |
+| 24-38 | Будущие уроки | Decision Trees, SVM, KNN, и др. |
 
 ## Быстрый старт
 
