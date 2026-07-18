@@ -13,11 +13,11 @@
 | 23 | [Logistic Regression](#урок-23) | [Код](23-logistic_regression.py) |
 | 24 | [Decision Trees & Random Forests](#урок-24) | [Код](24-decision_trees.py) |
 | 25 | [Support Vector Machines](#урок-25) | [Код](25-support_vector_machines.py) |
-| 26 | KNN & Distance Metrics | — |
-| 27 | Unsupervised Learning: K-Means, DBSCAN | — |
-| 28 | Feature Engineering & Selection | — |
-| 29 | Model Evaluation: Metrics, Cross-Validation | — |
-| 30 | Bias, Variance & the Learning Curve | — |
+| 26 | [KNN & Distance Metrics](#урок-26) | [Код](26-knn.py) |
+| 27 | [Unsupervised Learning](#урок-27) | [Код](27-unsupervised_learning.py) |
+| 28 | [Feature Engineering & Selection](#урок-28) | [Код](28-feature_engineering.py) |
+| 29 | [Model Evaluation](#урок-29) | [Код](29-model_evaluation.py) |
+| 30 | [Bias, Variance & Learning Curve](#урок-30) | [Код](30-bias-variance.py) |
 | 31 | Ensemble Methods: Boosting, Bagging, Stacking | — |
 | 32 | Hyperparameter Tuning | — |
 | 33 | ML Pipelines & Experiment Tracking | — |

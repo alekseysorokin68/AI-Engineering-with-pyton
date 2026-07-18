@@ -46,7 +46,12 @@
 | 23 | [Logistic Regression](phase-02-ml-fundamentals/23-logistic_regression.py) | Sigmoid, binary cross-entropy, softmax, метрики |
 | 24 | [Decision Trees & Random Forests](phase-02-ml-fundamentals/24-decision_trees.py) | Gini, entropy, information gain, bootstrap, feature importance |
 | 25 | [Support Vector Machines](phase-02-ml-fundamentals/25-support_vector_machines.py) | Hinge loss, margin, kernel trick, RBF |
-| 26-38 | Будущие уроки | KNN, и др. |
+| 26 | [KNN & Distance Metrics](phase-02-ml-fundamentals/26-knn.py) | K-Nearest Neighbors, метрики расстояния |
+| 27 | [Unsupervised Learning](phase-02-ml-fundamentals/27-unsupervised_learning.py) | K-Means, DBSCAN, кластеризация |
+| 28 | [Feature Engineering](phase-02-ml-fundamentals/28-feature_engineering.py) | Нормализация, one-hot, полиномиальные признаки |
+| 29 | [Model Evaluation](phase-02-ml-fundamentals/29-model_evaluation.py) | Метрики, cross-validation, confusion matrix |
+| 30 | [Bias-Variance](phase-02-ml-fundamentals/30-bias-variance.py) | Bias-variance tradeoff, learning curves |
+| 31-38 | Будущие уроки | Ensemble methods, и др. |
 
 ## Быстрый старт
 
