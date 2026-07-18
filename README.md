@@ -164,6 +164,26 @@
 | 94 | [SARSA vs Q-Learning](phase-09-reinforcement-advanced/94-sarsa_vs_qlearning.py) | On-policy vs off-policy |
 | 95 | [Multi-Agent RL](phase-09-reinforcement-advanced/95_multi_agent_rl.py) | Cooperative, competitive, communication |
 
+### Phase 10: LLMs from Scratch (уроки 96-110)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 96 | [Tokenization](phase-10-llms-from-scratch/96-tokenization.py) | BPE, WordPiece |
+| 97 | [Embeddings](phase-10-llms-from-scratch/97-embeddings.py) | Token embeddings, positional encoding |
+| 98 | [Self-Attention](phase-10-llms-from-scratch/98-self_attention.py) | Q, K, V, scaled dot-product |
+| 99 | [Multi-Head Attention](phase-10-llms-from-scratch/99_multi_head_attention.py) | Heads, projection |
+| 100 | [Transformer Block](phase-10-llms-from-scratch/100-transformer_block.py) | LayerNorm, residual, FFN |
+| 101 | [GPT Architecture](phase-10-llms-from-scratch/101-gpt_architecture.py) | Decoder-only, causal mask |
+| 102 | [Pre-training](phase-10-llms-from-scratch/102-pretraining.py) | Next token, masked LM |
+| 103 | [Fine-tuning](phase-10-llms-from-scratch/103-fine_tuning.py) | SFT, instruction tuning |
+| 104 | [Prompting](phase-10-llms-from-scratch/104-prompting.py) | Zero-shot, few-shot, CoT |
+| 105 | [Chain-of-Thought](phase-10-llms-from-scratch/105-chain_of_thought.py) | CoT, self-consistency, ToT |
+| 106 | [RAG](phase-10-llms-from-scratch/106-rag.py) | Retrieval, generation |
+| 107 | [LoRA](phase-10-llms-from-scratch/107-lora.py) | Low-rank adaptation |
+| 108 | [Quantization](phase-10-llms-from-scratch/108-quantization.py) | INT8, INT4 |
+| 109 | [KV Cache](phase-10-llms-from-scratch/109-kv_cache.py) | Efficient inference |
+| 110 | [LLM Evaluation](phase-10-llms-from-scratch/110-llm_evaluation.py) | Perplexity, BLEU, benchmarks |
+
 ## Быстрый старт
 
 ```bash
