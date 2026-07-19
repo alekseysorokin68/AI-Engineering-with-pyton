@@ -8,7 +8,7 @@
 
 Полный курс AI/ML от основ математики до генеративного AI. **230 уроков, 18 фаз, ~1100 файлов кода.**
 
-Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
+Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-18Ы курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
 - **Phase 1: Math Foundations** — линейная алгебра, calculus, вероятности, оптимизация, Фурье
 - **Phase 2: ML Fundamentals** — линейные модели, деревья, SVM, ансамбли, оценка моделей
