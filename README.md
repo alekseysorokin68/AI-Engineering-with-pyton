@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **200 уроков, 16 фаз, ~1000 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **215 уроков, 17 фаз, ~1050 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -26,6 +26,7 @@
 - **Phase 14: Agent Engineering** — Architecture, Tools, Planning, Memory, Multi-Agent, Security, Deployment
 - **Phase 15: Autonomous Systems** — Self-Learning, World Models, Swarm Intelligence, Continual Learning
 - **Phase 16: Multi-Agent & Swarms** — Communication, Game Theory, MARL, LLM Agents, Production
+- **Phase 17: Infrastructure & Production** — Distributed Systems, K8s, CI/CD, Monitoring, MLOps
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -310,6 +311,26 @@
 | 198 | [Task Distribution](phase-16-multi-agent-swarms/198-task_distribution.py) | Allocation, load balancing, work stealing |
 | 199 | [Scaling Agents](phase-16-multi-agent-swarms/199-scaling_agents.py) | Hierarchical control, abstraction, optimization |
 | 200 | [Production Multi-Agent](phase-16-multi-agent-swarms/200-production_multi_agent.py) | Deployment, monitoring, debugging |
+
+### Phase 17: Infrastructure & Production (уроки 201-215)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 201 | [Distributed Systems](phase-17-infrastructure-production/201-distributed_systems.py) | CAP theorem, consistency, Raft consensus |
+| 202 | [Container Orchestration](phase-17-infrastructure-production/202-container_orchestration.py) | K8s advanced, operators, service mesh, GitOps |
+| 203 | [CI/CD for ML](phase-17-infrastructure-production/203-cicd_ml.py) | ML pipelines, model versioning, experiment tracking |
+| 204 | [Feature Stores](phase-17-infrastructure-production/204-feature_stores.py) | Feature engineering, serving, freshness, monitoring |
+| 205 | [ML Monitoring](phase-17-infrastructure-production/205-ml_monitoring.py) | Data drift, model drift, performance, alerting |
+| 206 | [A/B Testing for ML](phase-17-infrastructure-production/206-ab_testing_ml.py) | Statistical testing, bandits, online evaluation |
+| 207 | [Model Registry](phase-17-infrastructure-production/207-model_registry.py) | Versioning, lineage, governance, approval |
+| 208 | [Data Pipelines](phase-17-infrastructure-production/208-data_pipelines.py) | ETL, stream processing, data quality, orchestration |
+| 209 | [Edge Deployment](phase-17-infrastructure-production/209-edge_deployment.py) | Pruning, quantization, ONNX, mobile inference |
+| 210 | [GPU & Accelerators](phase-17-infrastructure-production/210-gpu_accelerators.py) | CUDA basics, mixed precision, tensor cores |
+| 211 | [Cost Optimization](phase-17-infrastructure-production/211-cost_optimization.py) | Spot instances, auto-scaling, right-sizing |
+| 212 | [Disaster Recovery](phase-17-infrastructure-production/212-disaster_recovery.py) | Backup, failover, chaos engineering, RTO/RPO |
+| 213 | [Compliance & Governance](phase-17-infrastructure-production/213-compliance_governance.py) | GDPR, audit trails, explainability, model cards |
+| 214 | [Team & Process](phase-17-infrastructure-production/214-team_process.py) | Agile for ML, MLOps maturity, team roles |
+| 215 | [ML Platform](phase-17-infrastructure-production/215-ml_platform.py) | Architecture, tooling, adoption, evolution |
 
 ## Быстрый старт
 

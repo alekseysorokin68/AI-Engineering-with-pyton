@@ -22,6 +22,7 @@
 | Phase 14 | Agent Engineering | 156-170 | [CURS.md](phase-14-agent-engineering/CURS.md) |
 | Phase 15 | Autonomous Systems | 171-185 | [CURS.md](phase-15-autonomous-systems/CURS.md) |
 | Phase 16 | Multi-Agent & Swarms | 186-200 | [CURS.md](phase-16-multi-agent-swarms/CURS.md) |
+| Phase 17 | Infrastructure & Production | 201-215 | [CURS.md](phase-17-infrastructure-production/CURS.md) |
 
 ## Формулы для справки
 
