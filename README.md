@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **125 уроков, 11 фаз, ~750 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **140 уроков, 12 фаз, ~800 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -21,6 +21,7 @@
 - **Phase 9: RL Advanced** — Model-Based, Monte Carlo, TD Learning, Multi-Agent RL
 - **Phase 10: LLMs from Scratch** — Токенизация, Transformer, GPT, Fine-tuning, RAG, LoRA
 - **Phase 11: LLM Engineering** — API Design, Serving, Security, Agents, Monitoring, Production
+- **Phase 12: Multimodal AI** — Vision Transformers, CLIP, Diffusion, Video, Audio, 3D, Multimodal Agents
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -205,6 +206,26 @@
 | 123 | [LLM Monitoring](phase-11-llm-engineering/123-llm_monitoring.py) | Logging, metrics, drift detection, alerting |
 | 124 | [Cost Optimization](phase-11-llm-engineering/124-cost_optimization.py) | Token costs, caching, model routing, distillation |
 | 125 | [LLM Production](phase-11-llm-engineering/125-llm_production.py) | A/B testing, incident response, quality monitoring |
+
+### Phase 12: Multimodal AI (уроки 126-140)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 126 | [Vision Transformers](phase-12-multimodal-ai/126-vision_transformers.py) | ViT, patch embeddings, DeiT, Swin |
+| 127 | [CLIP & Alignment](phase-12-multimodal-ai/127-clip_alignment.py) | Contrastive learning, zero-shot classification |
+| 128 | [Image Generation](phase-12-multimodal-ai/128-image_generation.py) | Autoregressive, VQ-VAE, discrete tokens |
+| 129 | [Diffusion Advanced](phase-12-multimodal-ai/129-diffusion_advanced.py) | DDIM, classifier-free guidance, noise schedules |
+| 130 | [Video Understanding](phase-12-multimodal-ai/130-video_understanding.py) | Temporal modeling, action recognition, video QA |
+| 131 | [Audio & Speech](phase-12-multimodal-ai/131-audio_speech_models.py) | Whisper, audio tokens, speech-to-text |
+| 132 | [Document Understanding](phase-12-multimodal-ai/132-document_understanding.py) | Layout analysis, OCR, table extraction |
+| 133 | [3D Vision](phase-12-multimodal-ai/133-3d_vision.py) | Point clouds, depth estimation, PointNet |
+| 134 | [Multimodal RAG](phase-12-multimodal-ai/134-multimodal_rag.py) | Cross-modal retrieval, hybrid indexes |
+| 135 | [Multimodal Agents](phase-12-multimodal-ai/135-multimodal_agents.py) | Vision tool use, GUI automation, embodied AI |
+| 136 | [Cross-Modal Transfer](phase-12-multimodal-ai/136-cross_modal_transfer.py) | Adapters, few-shot, knowledge distillation |
+| 137 | [Multimodal Benchmarks](phase-12-multimodal-ai/137-multimodal_benchmarks.py) | VQA, captioning metrics, retrieval metrics |
+| 138 | [Efficient Multimodal](phase-12-multimodal-ai/138-efficient_multimodal.py) | Token pruning, streaming, hardware optimization |
+| 139 | [Multimodal Safety](phase-12-multimodal-ai/139-multimodal_safety.py) | Hallucination, bias, content filtering |
+| 140 | [Building Multimodal Apps](phase-12-multimodal-ai/140-building_multimodal_apps.py) | Pipelines, API design, production deployment |
 
 ## Быстрый старт
 
