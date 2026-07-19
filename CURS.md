@@ -18,6 +18,7 @@
 | Phase 10 | LLMs from Scratch | 96-110 | [CURS.md](phase-10-llms-from-scratch/CURS.md) |
 | Phase 11 | LLM Engineering | 111-125 | [CURS.md](phase-11-llm-engineering/CURS.md) |
 | Phase 12 | Multimodal AI | 126-140 | [CURS.md](phase-12-multimodal-ai/CURS.md) |
+| Phase 13 | Tools & Protocols | 141-155 | [CURS.md](phase-13-tools-protocols/CURS.md) |
 
 ## Формулы для справки
 

@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **140 уроков, 12 фаз, ~800 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **155 уроков, 13 фаз, ~850 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -22,6 +22,7 @@
 - **Phase 10: LLMs from Scratch** — Токенизация, Transformer, GPT, Fine-tuning, RAG, LoRA
 - **Phase 11: LLM Engineering** — API Design, Serving, Security, Agents, Monitoring, Production
 - **Phase 12: Multimodal AI** — Vision Transformers, CLIP, Diffusion, Video, Audio, 3D, Multimodal Agents
+- **Phase 13: Tools & Protocols** — Python Packaging, Git, Docker, REST/GraphQL/gRPC, CI/CD, K8s, Security
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -226,6 +227,26 @@
 | 138 | [Efficient Multimodal](phase-12-multimodal-ai/138-efficient_multimodal.py) | Token pruning, streaming, hardware optimization |
 | 139 | [Multimodal Safety](phase-12-multimodal-ai/139-multimodal_safety.py) | Hallucination, bias, content filtering |
 | 140 | [Building Multimodal Apps](phase-12-multimodal-ai/140-building_multimodal_apps.py) | Pipelines, API design, production deployment |
+
+### Phase 13: Tools & Protocols (уроки 141-155)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 141 | [Python Packaging](phase-13-tools-protocols/141-python_packaging.py) | pip, pyproject.toml, wheel, venv |
+| 142 | [Git Advanced](phase-13-tools-protocols/142-git_advanced.py) | Branching, merging, rebasing, hooks |
+| 143 | [Docker](phase-13-tools-protocols/143-docker_containers.py) | Images, layers, multi-stage builds |
+| 144 | [REST API](phase-13-tools-protocols/144-rest_api.py) | HTTP methods, JWT, OpenAPI |
+| 145 | [GraphQL](phase-13-tools-protocols/145-graphql.py) | Schemas, resolvers, subscriptions |
+| 146 | [gRPC & Protobuf](phase-13-tools-protocols/146-grpc_protobuf.py) | Protocol Buffers, streaming, interceptors |
+| 147 | [Message Queues](phase-13-tools-protocols/147-message_queues.py) | RabbitMQ, Kafka, async patterns |
+| 148 | [CI/CD Pipelines](phase-13-tools-protocols/148-cicd_pipelines.py) | GitHub Actions, testing, deployment |
+| 149 | [Infrastructure as Code](phase-13-tools-protocols/149-infrastructure_as_code.py) | Terraform, declarative config, state |
+| 150 | [Kubernetes](phase-13-tools-protocols/150-kubernetes_basics.py) | Pods, services, deployments, scaling |
+| 151 | [Observability](phase-13-tools-protocols/151-observability.py) | Prometheus, Grafana, distributed tracing |
+| 152 | [Databases](phase-13-tools-protocols/152-databases.py) | SQL, indexing, connection pooling, ORMs |
+| 153 | [Caching](phase-13-tools-protocols/153-caching.py) | Redis, LRU/LFU, invalidation, consistent hashing |
+| 154 | [Security](phase-13-tools-protocols/154-security_fundamentals.py) | Auth, encryption, OWASP, secure coding |
+| 155 | [Cloud Computing](phase-13-tools-protocols/155-cloud_basics.py) | IaaS/PaaS/SaaS, serverless, CDN |
 
 ## Быстрый старт
 
