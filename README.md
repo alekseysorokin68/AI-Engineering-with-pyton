@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **155 уроков, 13 фаз, ~850 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **170 уроков, 14 фаз, ~900 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -23,6 +23,7 @@
 - **Phase 11: LLM Engineering** — API Design, Serving, Security, Agents, Monitoring, Production
 - **Phase 12: Multimodal AI** — Vision Transformers, CLIP, Diffusion, Video, Audio, 3D, Multimodal Agents
 - **Phase 13: Tools & Protocols** — Python Packaging, Git, Docker, REST/GraphQL/gRPC, CI/CD, K8s, Security
+- **Phase 14: Agent Engineering** — Architecture, Tools, Planning, Memory, Multi-Agent, Security, Deployment
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -247,6 +248,26 @@
 | 153 | [Caching](phase-13-tools-protocols/153-caching.py) | Redis, LRU/LFU, invalidation, consistent hashing |
 | 154 | [Security](phase-13-tools-protocols/154-security_fundamentals.py) | Auth, encryption, OWASP, secure coding |
 | 155 | [Cloud Computing](phase-13-tools-protocols/155-cloud_basics.py) | IaaS/PaaS/SaaS, serverless, CDN |
+
+### Phase 14: Agent Engineering (уроки 156-170)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 156 | [Agent Architecture](phase-14-agent-engineering/156-agent_architecture.py) | Agent loop, state machine, lifecycle |
+| 157 | [Tool Integration](phase-14-agent-engineering/157-tool_integration.py) | Function calling, tool registry, validation |
+| 158 | [Planning & Reasoning](phase-14-agent-engineering/158-planning_reasoning.py) | ReAct, plan-and-execute, reflection |
+| 159 | [Memory Systems](phase-14-agent-engineering/159-memory_systems.py) | Short/long-term, episodic, semantic memory |
+| 160 | [Multi-Agent Systems](phase-14-agent-engineering/160-multi_agent_systems.py) | Communication, cooperation, conflict resolution |
+| 161 | [Agent Evaluation](phase-14-agent-engineering/161-agent_evaluation.py) | Metrics, benchmarks, failure modes |
+| 162 | [Prompt Engineering for Agents](phase-14-agent-engineering/162-prompt_engineering_agents.py) | System prompts, few-shot, dynamic prompting |
+| 163 | [Agent Frameworks](phase-14-agent-engineering/163-agent_frameworks.py) | LangChain, AutoGPT, CrewAI concepts |
+| 164 | [Autonomous Agents](phase-14-agent-engineering/164-autonomous_agents.py) | Goal-driven, self-reflection, error recovery |
+| 165 | [Agent Security](phase-14-agent-engineering/165-agent_security.py) | Sandboxing, permissions, input validation |
+| 166 | [Agent Deployment](phase-14-agent-engineering/166-agent_deployment.py) | Scaling, monitoring, cost management |
+| 167 | [RAG for Agents](phase-14-agent-engineering/167-rag_for_agents.py) | Retrieval-augmented generation, knowledge bases |
+| 168 | [Code Agents](phase-14-agent-engineering/168-code_agents.py) | Code generation, execution, debugging |
+| 169 | [Browser Agents](phase-14-agent-engineering/169-browser_agents.py) | Web automation, navigation, form filling |
+| 170 | [Agent Use Cases](phase-14-agent-engineering/170-agent_use_cases.py) | Support, research, data analysis, creative |
 
 ## Быстрый старт
 

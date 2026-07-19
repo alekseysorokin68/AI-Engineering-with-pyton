@@ -19,6 +19,7 @@
 | Phase 11 | LLM Engineering | 111-125 | [CURS.md](phase-11-llm-engineering/CURS.md) |
 | Phase 12 | Multimodal AI | 126-140 | [CURS.md](phase-12-multimodal-ai/CURS.md) |
 | Phase 13 | Tools & Protocols | 141-155 | [CURS.md](phase-13-tools-protocols/CURS.md) |
+| Phase 14 | Agent Engineering | 156-170 | [CURS.md](phase-14-agent-engineering/CURS.md) |
 
 ## Формулы для справки
 
