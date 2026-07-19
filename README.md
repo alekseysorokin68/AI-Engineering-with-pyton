@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **170 уроков, 14 фаз, ~900 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **185 уроков, 15 фаз, ~950 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -24,6 +24,7 @@
 - **Phase 12: Multimodal AI** — Vision Transformers, CLIP, Diffusion, Video, Audio, 3D, Multimodal Agents
 - **Phase 13: Tools & Protocols** — Python Packaging, Git, Docker, REST/GraphQL/gRPC, CI/CD, K8s, Security
 - **Phase 14: Agent Engineering** — Architecture, Tools, Planning, Memory, Multi-Agent, Security, Deployment
+- **Phase 15: Autonomous Systems** — Self-Learning, World Models, Swarm Intelligence, Continual Learning
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -268,6 +269,26 @@
 | 168 | [Code Agents](phase-14-agent-engineering/168-code_agents.py) | Code generation, execution, debugging |
 | 169 | [Browser Agents](phase-14-agent-engineering/169-browser_agents.py) | Web automation, navigation, form filling |
 | 170 | [Agent Use Cases](phase-14-agent-engineering/170-agent_use_cases.py) | Support, research, data analysis, creative |
+
+### Phase 15: Autonomous Systems (уроки 171-185)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 171 | [Autonomous Architecture](phase-15-autonomous-systems/171-autonomous_architecture.py) | Autonomy levels, decision architecture, state |
+| 172 | [Self-Learning](phase-15-autonomous-systems/172-self_learning.py) | Online learning, experience replay, reward shaping |
+| 173 | [Adaptive Behavior](phase-15-autonomous-systems/173-adaptive_behavior.py) | Behavior trees, utility systems, GOAP |
+| 174 | [World Models](phase-15-autonomous-systems/174-world_models.py) | Predictive models, MCTS, mental simulation |
+| 175 | [Self-Improvement](phase-15-autonomous-systems/175-self_improvement.py) | Meta-learning, prompt evolution, self-optimization |
+| 176 | [Multi-Objectives](phase-15-autonomous-systems/176-multi_objectives.py) | Pareto optimality, constraint satisfaction, NSGA |
+| 177 | [Resource-Aware](phase-15-autonomous-systems/177-resource_aware.py) | Compute budgets, priority scheduling, lazy eval |
+| 178 | [Long-Horizon](phase-15-autonomous-systems/178-long_horizon.py) | Task chaining, checkpointing, failure recovery |
+| 179 | [Human-AI Teaming](phase-15-autonomous-systems/179-human_ai_teaming.py) | Handoff protocols, trust calibration, escalation |
+| 180 | [Autonomous Decisions](phase-15-autonomous-systems/180-autonomous_decisions.py) | Expected utility, Bayesian decisions, sequential |
+| 181 | [Self-Monitoring](phase-15-autonomous-systems/181-self_monitoring.py) | Anomaly detection, calibration, diagnostics |
+| 182 | [Swarm Intelligence](phase-15-autonomous-systems/182-swarm_intelligence.py) | ACO, PSO, flocking, emergent behavior |
+| 183 | [Continual Learning](phase-15-autonomous-systems/183-continual_learning.py) | Forgetting, EWC, progressive networks, distillation |
+| 184 | [Autonomous Debugging](phase-15-autonomous-systems/184-autonomous_debugging.py) | Root cause, fix generation, delta debugging |
+| 185 | [Production Autonomy](phase-15-autonomous-systems/185-production_autonomy.py) | SLA, graceful degradation, circuit breaker |
 
 ## Быстрый старт
 
