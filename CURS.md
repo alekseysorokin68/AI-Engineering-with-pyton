@@ -16,6 +16,7 @@
 | Phase 8 | Generative AI | 83-90 | [CURS.md](phase-08-generative-ai/CURS.md) |
 | Phase 9 | RL Advanced | 91-95 | [CURS.md](phase-09-reinforcement-advanced/CURS.md) |
 | Phase 10 | LLMs from Scratch | 96-110 | [CURS.md](phase-10-llms-from-scratch/CURS.md) |
+| Phase 11 | LLM Engineering | 111-125 | [CURS.md](phase-11-llm-engineering/CURS.md) |
 
 ## Формулы для справки
 

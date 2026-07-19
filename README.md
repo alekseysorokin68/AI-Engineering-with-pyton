@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **110 уроков, 10 фаз, ~700 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **125 уроков, 11 фаз, ~750 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -20,6 +20,7 @@
 - **Phase 8: Generative AI** — Autoencoders, VAE, GAN, Diffusion Models, Stable Diffusion
 - **Phase 9: RL Advanced** — Model-Based, Monte Carlo, TD Learning, Multi-Agent RL
 - **Phase 10: LLMs from Scratch** — Токенизация, Transformer, GPT, Fine-tuning, RAG, LoRA
+- **Phase 11: LLM Engineering** — API Design, Serving, Security, Agents, Monitoring, Production
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -184,6 +185,26 @@
 | 108 | [Quantization](phase-10-llms-from-scratch/108-quantization.py) | INT8, INT4 |
 | 109 | [KV Cache](phase-10-llms-from-scratch/109-kv_cache.py) | Efficient inference |
 | 110 | [LLM Evaluation](phase-10-llms-from-scratch/110-llm_evaluation.py) | Perplexity, BLEU, benchmarks |
+
+### Phase 11: LLM Engineering (уроки 111-125)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 111 | [LLM API Design](phase-11-llm-engineering/111-llm_api_design.py) | System prompts, message formats, temperature, top-p |
+| 112 | [Token Management](phase-11-llm-engineering/112-token_management.py) | Context windows, truncation, sliding window |
+| 113 | [Prompt Engineering Advanced](phase-11-llm-engineering/113-prompt_engineering_advanced.py) | Structured output, JSON mode, prompt chaining |
+| 114 | [LLM Serving](phase-11-llm-engineering/114-llm_serving.py) | Batching, streaming, load balancing, rate limiting |
+| 115 | [Inference Optimization](phase-11-llm-engineering/115-inference_optimization.py) | Speculative decoding, continuous batching, paged attention |
+| 116 | [LLM Security](phase-11-llm-engineering/116-llm_security.py) | Prompt injection, jailbreaking, guardrails |
+| 117 | [Agents & Tool Use](phase-11-llm-engineering/117-agents_tool_use.py) | Function calling, ReAct, tool orchestration |
+| 118 | [Multi-Modal LLMs](phase-11-llm-engineering/118-multimodal_llms.py) | Vision-language, audio-language, fusion |
+| 119 | [LLM Memory](phase-11-llm-engineering/119-llm_memory.py) | Conversation history, long-term memory, retrieval |
+| 120 | [Fine-tuning at Scale](phase-11-llm-engineering/120-finetuning_at_scale.py) | Data prep, distributed training, hyperparameters |
+| 121 | [LLM Testing](phase-11-llm-engineering/121-llm_testing.py) | Red-teaming, adversarial testing, A/B testing |
+| 122 | [LLM Deployment](phase-11-llm-engineering/122-llm_deployment.py) | Containerization, scaling, health checks |
+| 123 | [LLM Monitoring](phase-11-llm-engineering/123-llm_monitoring.py) | Logging, metrics, drift detection, alerting |
+| 124 | [Cost Optimization](phase-11-llm-engineering/124-cost_optimization.py) | Token costs, caching, model routing, distillation |
+| 125 | [LLM Production](phase-11-llm-engineering/125-llm_production.py) | A/B testing, incident response, quality monitoring |
 
 ## Быстрый старт
 
