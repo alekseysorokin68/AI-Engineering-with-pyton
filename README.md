@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **215 уроков, 17 фаз, ~1050 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **230 уроков, 18 фаз, ~1100 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -27,6 +27,7 @@
 - **Phase 15: Autonomous Systems** — Self-Learning, World Models, Swarm Intelligence, Continual Learning
 - **Phase 16: Multi-Agent & Swarms** — Communication, Game Theory, MARL, LLM Agents, Production
 - **Phase 17: Infrastructure & Production** — Distributed Systems, K8s, CI/CD, Monitoring, MLOps
+- **Phase 18: Ethics, Safety & Alignment** — Bias, Fairness, Explainability, Privacy, Red-Teaming
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -331,6 +332,26 @@
 | 213 | [Compliance & Governance](phase-17-infrastructure-production/213-compliance_governance.py) | GDPR, audit trails, explainability, model cards |
 | 214 | [Team & Process](phase-17-infrastructure-production/214-team_process.py) | Agile for ML, MLOps maturity, team roles |
 | 215 | [ML Platform](phase-17-infrastructure-production/215-ml_platform.py) | Architecture, tooling, adoption, evolution |
+
+### Phase 18: Ethics, Safety & Alignment (уроки 216-230)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 216 | [AI Ethics](phase-18-ethics-safety-alignment/216-ai_ethics_fundamentals.py) | Principles, frameworks, stakeholder analysis |
+| 217 | [Bias & Fairness](phase-18-ethics-safety-alignment/217-bias_fairness.py) | Bias types, fairness metrics, mitigation |
+| 218 | [AI Safety](phase-18-ethics-safety-alignment/218-ai_safety.py) | Alignment, reward hacking, corrigibility |
+| 219 | [Explainability](phase-18-ethics-safety-alignment/219-explainability.py) | LIME, SHAP, interpretability, user studies |
+| 220 | [Privacy](phase-18-ethics-safety-alignment/220-privacy.py) | Differential privacy, federated learning, anonymization |
+| 221 | [AI Governance](phase-18-ethics-safety-alignment/221-ai_governance.py) | EU AI Act, audit frameworks, corporate governance |
+| 222 | [Robustness & Adversarial](phase-18-ethics-safety-alignment/222-robustness_adversarial.py) | FGSM, PGD, defenses, certified robustness |
+| 223 | [AI Risk](phase-18-ethics-safety-alignment/223-ai_risk.py) | Risk matrix, failure modes, mitigation |
+| 224 | [Ethical Dilemmas](phase-18-ethics-safety-alignment/224-ethical_dilemmas.py) | Trolley problem, moral frameworks, trade-offs |
+| 225 | [AI & Society](phase-18-ethics-safety-alignment/225-ai_society.py) | Labor, democracy, power concentration |
+| 226 | [Sustainable AI](phase-18-ethics-safety-alignment/226-sustainable_ai.py) | Carbon footprint, efficiency, green computing |
+| 227 | [AI Regulation](phase-18-ethics-safety-alignment/227-ai_regulation.py) | EU AI Act, sector rules, international standards |
+| 228 | [Red-Teaming AI](phase-18-ethics-safety-alignment/228-red_teaming.py) | Attacks, harm categories, testing methodology |
+| 229 | [Value Alignment](phase-18-ethics-safety-alignment/229-value_alignment.py) | CEV, corrigibility, instrumental convergence |
+| 230 | [Building Safe AI](phase-18-ethics-safety-alignment/230-building_safe_ai.py) | Safety cases, verification, containment |
 
 ## Быстрый старт
 

@@ -23,6 +23,7 @@
 | Phase 15 | Autonomous Systems | 171-185 | [CURS.md](phase-15-autonomous-systems/CURS.md) |
 | Phase 16 | Multi-Agent & Swarms | 186-200 | [CURS.md](phase-16-multi-agent-swarms/CURS.md) |
 | Phase 17 | Infrastructure & Production | 201-215 | [CURS.md](phase-17-infrastructure-production/CURS.md) |
+| Phase 18 | Ethics, Safety & Alignment | 216-230 | [CURS.md](phase-18-ethics-safety-alignment/CURS.md) |
 
 ## Формулы для справки
 
