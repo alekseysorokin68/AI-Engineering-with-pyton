@@ -6,7 +6,7 @@
 
 ## О чём этот курс
 
-Полный курс AI/ML от основ математики до генеративного AI. **185 уроков, 15 фаз, ~950 файлов кода.**
+Полный курс AI/ML от основ математики до генеративного AI. **200 уроков, 16 фаз, ~1000 файлов кода.**
 
 Чтобы понимать, как работают нейросети, PyTorch и LLM, нужно знать математику **под капотом**. Этот курс проходит Phase 1-10 курса [AI Engineering from Scratch](https://aiengineeringfromscratch.com/):
 
@@ -25,6 +25,7 @@
 - **Phase 13: Tools & Protocols** — Python Packaging, Git, Docker, REST/GraphQL/gRPC, CI/CD, K8s, Security
 - **Phase 14: Agent Engineering** — Architecture, Tools, Planning, Memory, Multi-Agent, Security, Deployment
 - **Phase 15: Autonomous Systems** — Self-Learning, World Models, Swarm Intelligence, Continual Learning
+- **Phase 16: Multi-Agent & Swarms** — Communication, Game Theory, MARL, LLM Agents, Production
 
 Все алгоритмы реализованы **с нуля**: autograd движок, оптимизаторы, PCA, SVD, CNN, Transformer, RL-агенты — без импорта `torch` или `sklearn`. Только Python и понимание.
 
@@ -289,6 +290,26 @@
 | 183 | [Continual Learning](phase-15-autonomous-systems/183-continual_learning.py) | Forgetting, EWC, progressive networks, distillation |
 | 184 | [Autonomous Debugging](phase-15-autonomous-systems/184-autonomous_debugging.py) | Root cause, fix generation, delta debugging |
 | 185 | [Production Autonomy](phase-15-autonomous-systems/185-production_autonomy.py) | SLA, graceful degradation, circuit breaker |
+
+### Phase 16: Multi-Agent & Swarms (уроки 186-200)
+
+| # | Урок | Что изучаем |
+|---|------|-------------|
+| 186 | [Multi-Agent Fundamentals](phase-16-multi-agent-swarms/186-multi_agent_fundamentals.py) | Agent societies, FIPA ACL, coordination |
+| 187 | [Agent Communication](phase-16-multi-agent-swarms/187-agent_communication.py) | Speech acts, protocols, grounding |
+| 188 | [Cooperative Strategies](phase-16-multi-agent-swarms/188-cooperative_strategies.py) | Joint planning, Shapley value, coalitions |
+| 189 | [Competitive Agents](phase-16-multi-agent-swarms/189-competitive_agents.py) | Game theory, Nash equilibrium, auctions |
+| 190 | [Agent Organizations](phase-16-multi-agent-swarms/190-agent_organizations.py) | Hierarchies, roles, teams, learning |
+| 191 | [Swarm Algorithms](phase-16-multi-agent-swarms/191-swarm_algorithms.py) | ACO, PSO, ABC, firefly |
+| 192 | [Emergent Behavior](phase-16-multi-agent-swarms/192-emergent_behavior.py) | Self-organization, cellular automata, stigmergy |
+| 193 | [Agent Negotiation](phase-16-multi-agent-swarms/193-agent_negotiation.py) | Bargaining, contract net, multi-issue |
+| 194 | [MARL](phase-16-multi-agent-swarms/194-marl.py) | QMIX, self-play, mixed motivation |
+| 195 | [LLM Multi-Agent](phase-16-multi-agent-swarms/195_llm_multi_agent.py) | Agent roles, debate, workflow orchestration |
+| 196 | [Simulation & Testing](phase-16-multi-agent-swarms/196-simulation_testing.py) | ABM, scenario design, validation |
+| 197 | [Communication Networks](phase-16-multi-agent-swarms/197-communication_networks.py) | Topologies, gossip, cascades, resilience |
+| 198 | [Task Distribution](phase-16-multi-agent-swarms/198-task_distribution.py) | Allocation, load balancing, work stealing |
+| 199 | [Scaling Agents](phase-16-multi-agent-swarms/199-scaling_agents.py) | Hierarchical control, abstraction, optimization |
+| 200 | [Production Multi-Agent](phase-16-multi-agent-swarms/200-production_multi_agent.py) | Deployment, monitoring, debugging |
 
 ## Быстрый старт
 
